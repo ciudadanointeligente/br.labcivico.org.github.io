@@ -28,73 +28,48 @@ layout: default
 <div class="container">
 	<h2>METODOLOGÍA</h2>
 		<div class="row">
-			<div class="col-md-2">Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.</div>
-			<div class="col-md-2">Determinamos metas y objetivos, definiendo en conjunto qué buscamos lograr y cómo llegaremos a ello.</div>
-			<div class="col-md-2">Definimos el producto a desarrollar una vez que los objetivos están definidos, y estructuramos herramientas que respondan a las necesidades evaluadas y que impulsen el cambio respecto a una situación actual que se pretende abordar.</div>
-			<div class="col-md-2">Establecemos actividades y resultados, definiendo tareas y responsabilidades que permitan mapear el trabajo que se estará realizando durante 3 meses aprox.</div>
-			<div class="col-md-2">Elaboramos un estrategia comunicacional y de incidencia, definiendo un lanzamiento para el producto desarrollado, actividades para el posicionamiento en medios y redes sociales, y la promoción de la herramienta.</div>
-		</div>
+			{% for methodology in site.methodologies %}
+				<div class="col-md-2">
+					<img src="{{methodology.pictogram}}">
+					{{methodology.content}}
+				</div>
+      		{% endfor %}
 </div>
 
 <div class="container">
 	<h2>INICIATIVAS</h2>
-		<div class="row">
-			<div class="col-md-6">
-			<h3>Bolivia</h3>
-			A mediados de junio, un grupo heterogéneo de ciudadanos en La Paz se reunieron a discutir sobre la violencia de género, y formular dos interesantes proyectos que ya se están incubando.
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-			<h3>Ecuador</h3>
-			Agosto promete ser un gran mes para la comunidad cívica y tecnológica de Quito, principalmente para todos aquellos con interés en temas de Reciclaje y Sustentabilidad Ambiental.
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-			<h3>Perú</h3>
-			La primera generación de Laboratorios llegará a fines de Agosto a sorprender a Lima. En pocas semanas tendremos una gran invitación que no podrán dejar pasar. 
-			</div>
-		</div>
+		<ul class="list-unstyled">
+			{% for initiative in site.initiatives %}
+			<li>
+					<h3>{{initiative.heading}}</h3>
+					{{initiative.content}}
+			</li>
+			{% endfor %}
+		</ul>
 </div>
 
 <div class="container">
 	<h2>PROYECTOS</h2>
 		<div class="row">
-			<div class="col-md-3">
-				Proyecto 1
-			</div>
-			<div class="col-md-3">
-				Proyecto 2
-			</div>
-			<div class="col-md-3">
-				Proyecto 3
-			</div>
-			<div class="col-md-3">
-				Proyecto 4
-			</div>
+			{% for project in site.projects %}
+				<div class="col-md-3" style="background-image:url({{project.image}})">
+					<span class="label label-warning">{{project.country}}</span>
+					<h3>{{project.heading}}</h3>
+				</div>
+			{% endfor %}
 		</div>
 </div>
 
 <div class="container">
 	<h2>BLOG</h2>
 		<div class="row">
-			<div class="col-md-3">
-				<h3>Entrada 1</h3>
-				Bla bla
-			</div>
-			<div class="col-md-3">
-				<h3>Entrada 2</h3>
-				Bla bla
-			</div>
-			<div class="col-md-3">
-				<h3>Entrada 3</h3>
-				Bla bla
-			</div>
-			<div class="col-md-3">
-				<h3>Entrada 4</h3>
-				Bla bla
-			</div>
-		</div>
+		<ul class="list-unstyled">
+			{% for entry in site.posts %}
+			<li>
+					<h3>{{entry.title}}</h3>
+					<p>{{entry.description}}</p>
+			</li>
+			{% endfor %}
+		</ul>
 </div>
 </div>
