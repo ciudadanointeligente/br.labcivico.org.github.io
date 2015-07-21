@@ -44,3 +44,23 @@ ul.nav.navbar-nav.navbar-right{
   .container-blue{
     background-color:$blue;
  }
+
+ /**
+ * Headings
+ */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 38px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+}
+
