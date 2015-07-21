@@ -64,3 +64,15 @@ h3{
     font-size: 16px;
 }
 
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $grey;
+    background-color: $lightgrey;
+    -webkit-text-size-adjust: 100%;
+}
