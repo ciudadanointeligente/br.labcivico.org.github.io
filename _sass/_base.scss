@@ -19,4 +19,28 @@
     line-height: 0.5;
     font-size: 13px;
 }
+ul.nav.navbar-nav.navbar-right{
+    padding-top: 11px;
+}
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;;
+}
+
+/**
+ * Containers
+ */
+ .container{
+    background-color: transparent;;
+ }
+ .container-grey{
+    background-color:$lightgrey;
+ }
+
+ .container-yellow{
+    background-color:$yellow;
+ }
+
+  .container-blue{
+    background-color:$blue;
+ }
