@@ -42,14 +42,18 @@ layout: default
 	<div class="container-yellow">
 	<div class="container">
 		<h2>INICIATIVAS</h2>
-			<ul class="list-unstyled">
-				{% for initiative in site.initiatives %}
-				<li>
-						<h3>{{initiative.heading}}</h3>
-						{{initiative.content}}
-				</li>
-				{% endfor %}
-			</ul>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="list-unstyled">
+						{% for initiative in site.initiatives %}
+						<li>
+								<h3>{{initiative.heading}}</h3>
+								{{initiative.content}}
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
 	</div>
 	</div>
 
