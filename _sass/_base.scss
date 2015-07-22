@@ -28,6 +28,17 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 /**
+ * Jumbotron
+ */
+.jumbotron .h1, .jumbotron h1{
+    font-size: 38px;
+    color: white;
+}
+
+.jumbotron p{
+    color: white;
+}
+/**
  * Containers
  */
  .container{
