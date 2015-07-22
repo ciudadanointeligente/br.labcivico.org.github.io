@@ -50,17 +50,17 @@ ul.nav.navbar-nav.navbar-right{
  */
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 38px;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 20px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 16px;
 }
 
@@ -75,4 +75,23 @@ body {
     color: $grey;
     background-color: $lightgrey;
     -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Labels
+ */
+.label{
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height:4;
+}
+
+.label-warning{
+    background-color: $darkyellow;
+}
+
+a:hover{
+    text-decoration: none;
 }
