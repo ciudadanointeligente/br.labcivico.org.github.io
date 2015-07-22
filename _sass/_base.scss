@@ -30,6 +30,9 @@ ul.nav.navbar-nav.navbar-right{
 /**
  * Jumbotron
  */
+.jumbotron{
+    margin-bottom: 0px;
+}
 .jumbotron .h1, .jumbotron h1{
     font-size: 38px;
     color: white;
@@ -46,10 +49,14 @@ ul.nav.navbar-nav.navbar-right{
  }
  .container-grey{
     background-color:$lightgrey;
+    padding-top: 10px;
+    padding-bottom: 30px;
  }
 
  .container-yellow{
     background-color:$yellow;
+    padding-top: 10px;
+    padding-bottom: 30px;
  }
 
   .container-blue{
