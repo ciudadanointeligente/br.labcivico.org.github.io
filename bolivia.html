@@ -41,7 +41,7 @@ layout: default
 				<div class="row">
 						{% for project in site.projects %}
 						<div class="col-md-3" style="background-image:url({{project.image}})">
-								<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
+								<a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
 								<h4>{{project.h4}}</h4>
 								<h5>{{project.h5}}</h5>
 						</div>
@@ -62,9 +62,9 @@ layout: default
 						</div>
 						<div class="col-md-8">
 							<ul class="list-unstyled">
-								<li>{{person.name}}</li>
+								<li><h3>{{person.name}}</h3></li>
 								<li>{{person.occupation}}</li>
-								<li>{{person.project}}</li>
+								<li><span class="label orange">{{person.project}}</span></li>
 							</ul>
 						</div>
 					</div>

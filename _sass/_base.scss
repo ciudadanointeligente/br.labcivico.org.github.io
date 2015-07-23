@@ -135,6 +135,7 @@ h4{
     font-weight: 700;
     text-align: center;
     line-height: 0.7;
+    color: white;
 }
 
 h5{
@@ -143,6 +144,7 @@ h5{
     font-weight: 300;
     text-align: center;
     line-height: 0.7;
+    color: white;
 }
 
 .container-grey h2{
@@ -184,10 +186,15 @@ body {
     font-weight: 700;
     font-size: 11px;
     line-height:4;
-}
-
-.label-warning{
-    background-color: $darkyellow;
+    &.yellow {
+        background-color: $darkyellow;
+    }
+    &.orange{
+        background-color: #DA6250;
+    }
+    &.pink{
+        background-color: #AF2C58;
+    }
 }
 
 a:hover{
