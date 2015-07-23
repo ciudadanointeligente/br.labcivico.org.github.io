@@ -52,6 +52,12 @@ ul.nav.navbar-nav.navbar-right{
     background-color: transparent;
  }
 
+ .container-white{
+    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+ }
+
  .container-grey{
     background-color:$lightgrey;
     padding-top: 10px;
@@ -134,6 +140,10 @@ h5{
 }
 
 .container-grey h2{
+    color: $blue;
+}
+
+.container-white h2{
     color: $blue;
 }
 

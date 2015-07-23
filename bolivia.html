@@ -42,7 +42,8 @@ layout: default
 						{% for project in site.projects %}
 						<div class="col-md-3" style="background-image:url({{project.image}})">
 								<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
-								<h3>{{project.heading}}</h3>
+								<h4>{{project.h4}}</h4>
+								<h5>{{project.h5}}</h5>
 						</div>
 						{% endfor %}
 			</div>
@@ -53,14 +54,6 @@ layout: default
 	<div class="container">
 		<h2>EQUIPO</h2>
 			<div class="row">
-			<ul class="list-unstyled">
-				{% for entry in site.posts %}
-				<li>
-						<h3>{{entry.title}}</h3>
-						<p>{{entry.description}}</p>
-				</li>
-				{% endfor %}
-			</ul>
 			</div>
 	</div>
 	</div>
