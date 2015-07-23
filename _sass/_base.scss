@@ -70,6 +70,14 @@ ul.nav.navbar-nav.navbar-right{
         background-position-y: -10px;
         min-height: 560px;
     }
+    &.timeline {
+        background-image: url("/img/agenda.png");
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        background-position-x:970px;
+        background-position-y: 90px;
+        min-height: 480px;
+    }
 }
 
 .container-blue{
