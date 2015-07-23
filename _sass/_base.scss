@@ -61,7 +61,7 @@ ul.nav.navbar-nav.navbar-right{
     background-blend-mode: multiply;
     background-position-x:940px;
     background-position-y:230px;
-    min-height: 600px;
+    min-height: 580px;
  }
 
  .container-grey{
@@ -161,6 +161,16 @@ h5{
 .col-md-3 {
     &.initiatives {
     vertical-align: middle;
+    }
+}
+
+.col-md-4{
+    &.team{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    &.person{
+        margin-top: 15px;
     }
 }
 

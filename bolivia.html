@@ -55,12 +55,12 @@ layout: default
 		<h2>EQUIPO</h2>
 			<div class="row">
 				{% for person in site.team %}
-				<div class="col-md-4">
+				<div class="col-md-4 team">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 person">
 							<img src="{{person.image}}" class="img-circle img-responsive">
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-8 person">
 							<ul class="list-unstyled">
 								<li><h3>{{person.name}}</h3></li>
 								<li>{{person.occupation}}</li>
