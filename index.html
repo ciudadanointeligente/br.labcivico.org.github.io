@@ -62,8 +62,10 @@ layout: default
 						{% for project in site.projects %}
 						<div class="col-md-3">
 							<div style="background-image:url({{project.image}})">
-								<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
-								<h3>{{project.heading}}</h3>								
+								<div class="projects">
+									<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
+									<h4>{{project.heading}}</h4>								
+								</div>
 							</div>
 						</div>
 						{% endfor %}
