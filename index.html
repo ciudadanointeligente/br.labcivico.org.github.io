@@ -58,17 +58,17 @@ layout: default
 	</div>
 
 	<div class="container-grey">
-	<div class="container">
-		<h2>PROYECTOS</h2>
-			<div class="row">
-				{% for project in site.projects %}
-					<div class="col-md-3" style="background-image:url({{project.image}})">
-						<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
-						<h3>{{project.heading}}</h3>
-					</div>
-				{% endfor %}
+		<div class="container">
+			<h2>PROYECTOS</h2>
+				<div class="row">
+						{% for project in site.projects %}
+						<div class="col-md-3" style="background-image:url({{project.image}})">
+								<a href="{{ site.baseurl }}/"><span class="label label-warning">{{project.country}}</span></a>
+								<h3>{{project.heading}}</h3>
+						</div>
+						{% endfor %}
 			</div>
-	</div>
+		</div>
 	</div>
 
 	<div class="container-yellow">

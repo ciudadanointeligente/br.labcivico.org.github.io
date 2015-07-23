@@ -19,6 +19,7 @@
     line-height: 0.5;
     font-size: 13px;
 }
+
 ul.nav.navbar-nav.navbar-right{
     padding-top: 11px;
 }
@@ -33,6 +34,7 @@ ul.nav.navbar-nav.navbar-right{
 .jumbotron{
     margin-bottom: 0px;
 }
+
 .jumbotron .h1, .jumbotron h1{
     font-size: 38px;
     color: white;
@@ -41,6 +43,7 @@ ul.nav.navbar-nav.navbar-right{
 .jumbotron p{
     color: white;
 }
+
 /**
  * Containers
  */
@@ -84,6 +87,15 @@ h3{
     margin-top: 26px;
     margin-bottom: 2px;
 }
+
+ .container-yellow h2{
+    color: white;
+}
+
+ .container-grey h2{
+    color: $blue;
+}
+
 
 /**
  * Basic styling
