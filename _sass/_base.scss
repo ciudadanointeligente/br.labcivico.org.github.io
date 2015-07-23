@@ -66,12 +66,20 @@ ul.nav.navbar-nav.navbar-right{
         background-image: url("/img/mapa.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        background-position-x:600px;
+        background-position-x:650px;
+        background-position-y: -10px;
+        min-height: 560px;
     }
 }
 
-  .container-blue{
+.container-blue{
     background-color:$blue;
+    background-image: url("/img/sumate.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position-x:0;
+    background-position-y:130px;
+    min-height: 450px;
  }
 
 .projects{
@@ -125,7 +133,8 @@ h5{
  * Basic styling
  */
 .col-md-3 {
-    &.projects {
+    &.initiatives {
+    vertical-align: middle;
     }
 }
 
