@@ -54,6 +54,22 @@ layout: default
 	<div class="container">
 		<h2>EQUIPO</h2>
 			<div class="row">
+				{% for person in site.team %}
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="{{person.image}}" class="img-circle img-responsive">
+						</div>
+						<div class="col-md-8">
+							<ul class="list-unstyled">
+								<li>{{person.name}}</li>
+								<li>{{person.occupation}}</li>
+								<li>{{person.project}}</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	  			{% endfor %}
 			</div>
 	</div>
 	</div>
