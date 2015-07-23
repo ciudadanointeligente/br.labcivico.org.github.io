@@ -48,7 +48,7 @@ ul.nav.navbar-nav.navbar-right{
 /**
  * Containers
  */
- .container{
+.container{
     background-color: transparent;;
  }
  .container-grey{
@@ -61,7 +61,13 @@ ul.nav.navbar-nav.navbar-right{
     padding-top: 10px;
     padding-bottom: 30px;
     background-color:$yellow;
- }
+    &.map {
+        background-image: url("/img/mapa.png");
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        background-position-x:600px;
+    }
+}
 
   .container-blue{
     background-color:$blue;
