@@ -27,33 +27,13 @@ layout: default
 		</div>
 	</div>
 
-	<div class="container-grey">
-	<div class="container">
-		<h2>METODOLOGÍA</h2>
-			<div class="row">
-				{% for methodology in site.methodologies %}
-					<div class="col-md-2">
-						<img src="{{methodology.pictogram}}">
-						{{methodology.content}}
-					</div>
-	      		{% endfor %}
-			</div>
-	</div>
-	</div>
-
 	<div class="container-yellow">
 	<div class="container">
-		<h2>INICIATIVAS</h2>
+		<h2>AGENDA</h2>
 			<div class="row">
-				{% for initiative in site.initiatives %}
-				<div class="col-md-3">
-					<h3>{{initiative.heading}}</h3>
-					{{initiative.content}}
-				</div>
-				{% endfor %}
 			</div>
 	</div>
-	</div>
+	</div>	
 
 	<div class="container-grey">
 		<div class="container">
@@ -69,9 +49,9 @@ layout: default
 		</div>
 	</div>
 
-	<div class="container-yellow">
+	<div class="container-white">
 	<div class="container">
-		<h2>BLOG</h2>
+		<h2>EQUIPO</h2>
 			<div class="row">
 			<ul class="list-unstyled">
 				{% for entry in site.posts %}
@@ -93,4 +73,5 @@ layout: default
 			</div>
 	</div>
 	</div>
+
 </div>
