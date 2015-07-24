@@ -94,12 +94,25 @@ ul.nav.navbar-nav.navbar-right{
 
 .container-blue{
     background-color:$blue;
+    &.sumate{
     background-image: url("/img/sumate.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position-x:0;
     background-position-y:130px;
     min-height: 450px;
+    }
+    &.about{
+    color: white;
+    min-height: 550px;
+    margin-top: 70px;
+    background-image: url("/img/about.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position-x:700px;
+    background-position-y:-10px;
+    min-height: 550px;
+    }
  }
 
 .projects{
@@ -214,3 +227,10 @@ body {
 a:hover{
     text-decoration: none;
 }
+
+.container-blue.about a{
+    color: $darkblue;
+    font-weight: 400;
+}
+
+
