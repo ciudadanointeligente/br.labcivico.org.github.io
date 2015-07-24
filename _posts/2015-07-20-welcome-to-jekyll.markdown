@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Colaboración, tecnología e incidencia para el cambio social. Bienvenidos a Lab Cívico"
 date:   2015-07-20 16:42:13
 categories: jekyll update
 permalink: lolo.html
