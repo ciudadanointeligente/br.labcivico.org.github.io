@@ -20,11 +20,41 @@
     font-size: 13px;
 }
 
+.sub-brand a{
+    color: $blue;
+}
+
+.sub-brand a:hover{
+    color: $darkblue;
+}
+
 ul.nav.navbar-nav.navbar-right{
     padding-top: 11px;
 }
 
+.navbar-default .navbar-nav>li>a{
+    color: $darkblue;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: transparent;
+    color: $blue;
+}
+
+.dropdown-menu{
+    min-width: 0;
+    border:none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.dropdown-menu>li>a{
+    color: $darkblue;
+    font-weight: 300;
+}
+
+.dropdown-menu>li>a:hover{
+    color: $blue;
     background-color: transparent;;
 }
 
