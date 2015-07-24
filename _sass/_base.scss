@@ -148,6 +148,7 @@ ul.nav.navbar-nav.navbar-right{
 
 .projects{
     padding-left: 10px;
+    min-height: 250px;
 }
 
  /**
@@ -263,4 +264,31 @@ a:hover{
     font-weight: 400;
 }
 
+/**
+ * Form
+ */
+.form-control{
+    border:0px;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+
+.text.form-control{
+    min-height: 100px;
+}
+
+.btn-default{
+    color: white;
+    border: none;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    &.yellow{
+        background-color: $yellow;
+    }   
+    &.blue{
+        background-color: $blue;
+        margin-top: 30px;
+    }   
+}
 
