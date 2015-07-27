@@ -6,6 +6,20 @@ body {
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+a {
+  color: $blue;
+}
+
+a:focus, a:hover {
+    color: $darkblue;
+}
+
+a .fa-chevron-down {
+    background-color:$blue;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+}
 
 .navbar-default{
     background-color: white;
@@ -68,12 +82,19 @@ ul.nav.navbar-nav.navbar-right{
     background-color: transparent;;
 }
 
+section {
+    padding: 70px 0 100px;
+}
+
 /**
  * Jumbotron
  */
 .jumbotron{
     position: relative;
     overflow: hidden;
+    max-height: 810px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .jumbotron-intro {
@@ -118,13 +139,9 @@ ul.nav.navbar-nav.navbar-right{
 
  .container-grey{
     background-color:$lightgrey;
-    padding-top: 10px;
-    padding-bottom: 30px;
  }
 
  .container-yellow{
-    padding-top: 10px;
-    padding-bottom: 30px;
     background-color:$yellow;
     &.map {
         background-image: url("/img/mapa2.png");
