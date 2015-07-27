@@ -45,8 +45,6 @@ layout: default
     <div class="container">
       <h2>METODOLOGÍA</h2>
         <div class="bajada">¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</div>
-        <div class="row">
-          <div class="col-md-12">
             {% for methodology in site.methodologies %}
               <div class="row">
                 <div class="col-md-2 pictos">
@@ -56,10 +54,6 @@ layout: default
                   <span>{{methodology.content}}</span>
                 </div>
               </div>
-              <div class="col-md-10">
-                <span>{{methodology.content}}</span>
-              </div>
-            </div>
             {% endfor %}
         </div>
       </div>
