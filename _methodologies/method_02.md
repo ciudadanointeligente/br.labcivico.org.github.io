@@ -1,6 +1,6 @@
 ---
 layout: methodology
-pictogram: //placehold.it/80x80
+pictogram: img/m02.png
 ---
 
 Determinamos metas y objetivos, definiendo en conjunto qué buscamos lograr y cómo llegaremos a ello.
