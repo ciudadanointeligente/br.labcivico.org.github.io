@@ -3,80 +3,79 @@ layout: default
 ---
 
 <div>
-	<div class="jumbotron">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-		    	<div class="item active">
-		      		<img src="img/01.jpg" alt="First slide">
-		    	</div>
-		    <div class="item">
-		      	<img src="img/01.jpg" alt="Second slide">
-		      	<div class="carousel-caption">
-		      	</div>
-		    </div>
-		    <div class="container">
-			   	<div class="row">
-					<div class="col-md-6">
-						<h1>Colaboración, tecnología e incidencia para el cambio social</h1>
-						<p>Nos propusimos integrar a los sectores sociales y tecnológicos para fortalecer el desarrollo de herramientas innovadoras. <br>¡Bienvenidos todos a ser partícipes de esta experiencia!</p>
-					</div>
-				</div>
-			</div>
-		  	</div>
-		</div>
-	</div>
+  <div class="jumbotron">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div class="item active">
+              <img src="img/01.jpg" alt="First slide">
+          </div>
+        <div class="item">
+            <img src="img/01.jpg" alt="Second slide">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-6">
+            <h1>Colaboración, tecnología e incidencia para el cambio social</h1>
+            <p>Nos propusimos integrar a los sectores sociales y tecnológicos para fortalecer el desarrollo de herramientas innovadoras. <br>¡Bienvenidos todos a ser partícipes de esta experiencia!</p>
+          </div>
+        </div>
+      </div>
+        </div>
+    </div>
+  </div>
 
-	<div class="container-yellow timeline">
-		<div class="container">
-			<h2>AGENDA</h2>
-				<div class="row">
+  <div class="container-yellow timeline">
+    <div class="container">
+      <h2>AGENDA</h2>
+        <div class="row">
 
-				</div>
-		</div>
-	</div>	
+        </div>
+    </div>
+  </div>
 
-	<div class="container-grey">
-		<div class="container">
-			<h2>PROYECTOS</h2>
-				<div class="row">
-						{% for project in site.projects %}
-						<div class="col-md-3 project">
-							<div style="background-image:url({{project.image}})">
-								<div class="projects">
-									<a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
-									<h4>{{project.h4}}</h4>	
-									<h5>{{project.h5}}</h5>									
-								</div>
-							</div>
-						</div>
-						{% endfor %}
-			</div>
-		</div>
-	</div>
+  <div class="container-grey">
+    <div class="container">
+      <h2>PROYECTOS</h2>
+        <div class="row">
+            {% for project in site.projects %}
+            <div class="col-md-3 project">
+              <div style="background-image:url({{project.image}})">
+                <div class="projects">
+                  <a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
+                  <h4>{{project.h4}}</h4>
+                  <h5>{{project.h5}}</h5>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+      </div>
+    </div>
+  </div>
 
-	<div class="container-white">
-		<div class="container">
-			<h2>EQUIPO</h2>
-				<div class="row">
-					{% for person in site.team %}
-					<div class="col-md-4 team">
-						<div class="row">
-							<div class="col-md-4 person">
-								<img src="{{person.image}}" class="img-circle img-responsive">
-							</div>
-							<div class="col-md-8 person">
-								<ul class="list-unstyled">
-									<li><h3>{{person.name}}</h3></li>
-									<li>{{person.occupation}}</li>
-									<li><span class="label orange">{{person.project}}</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-		  			{% endfor %}
-				</div>
-		</div>
-	</div>
-
+  <div class="container-white">
+    <div class="container">
+      <h2>EQUIPO</h2>
+        <div class="row">
+          {% for person in site.team %}
+          <div class="col-md-4 team">
+            <div class="row">
+              <div class="col-md-4 person">
+                <img src="{{person.image}}" class="img-circle img-responsive">
+              </div>
+              <div class="col-md-8 person">
+                <ul class="list-unstyled">
+                  <li><h3>{{person.name}}</h3></li>
+                  <li>{{person.occupation}}</li>
+                  <li><span class="label orange">{{person.project}}</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            {% endfor %}
+        </div>
+    </div>
+  </div>
 </div>

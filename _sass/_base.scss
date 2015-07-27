@@ -158,7 +158,7 @@ li.redes {
  .container-yellow{
     background-color:$yellow;
     &.map {
-        background-image: url("/img/mapa2.png");
+        background-image: url("./img/mapa2.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
         background-position-x:90%;
@@ -166,7 +166,7 @@ li.redes {
         min-height: 410px;
     }
     &.timeline {
-        background-image: url("/img/agenda.png");
+        background-image: url("./img/agenda.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
         background-position-x:90%;
@@ -344,11 +344,11 @@ a:hover{
     font-weight: 700;
     &.yellow{
         background-color: $yellow;
-    }   
+    }
     &.blue{
         background-color: $blue;
         margin-top: 30px;
-    }   
+    }
 }
 
 /*Blog*/
