@@ -122,6 +122,12 @@ section {
     background: url(../img/bg.png) repeat;
 }
 
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 31px;
+    font-weight: 400;
+}
+
 /**
  * Containers
  */
@@ -362,4 +368,20 @@ section#blog {
 
 .posts img {
     width: 100%;
+}
+
+/*Footer*/
+
+.site-footer {
+    background-color: $darkblue;
+    color: white;
+    padding: 40px 0;
+}
+
+.logo-fci img {
+  width: 200px;
+}
+
+.site-footer a:hover, .site-footer a:focus {
+  color: #FFF;
 }
