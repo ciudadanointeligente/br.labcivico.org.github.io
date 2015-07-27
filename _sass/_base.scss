@@ -14,6 +14,13 @@ a:focus, a:hover {
     color: $darkblue;
 }
 
+a .fa-chevron-down {
+    background-color:$blue;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+}
+
 .navbar-default{
     background-color: white;
     border: none;
