@@ -1,6 +1,26 @@
 /**
  * Site header
  */
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+a {
+  color: $blue;
+}
+
+a:focus, a:hover {
+    color: $darkblue;
+}
+
+a .fa-chevron-down {
+    background-color:$blue;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+}
+
 .navbar-default{
     background-color: white;
     border: none;
@@ -62,22 +82,40 @@ ul.nav.navbar-nav.navbar-right{
     background-color: transparent;;
 }
 
+section {
+    padding: 70px 0 100px;
+}
+
 /**
  * Jumbotron
  */
 .jumbotron{
+    position: relative;
+    overflow: hidden;
+    max-height: 810px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.jumbotron-intro {
+    position: absolute;
+    width: 100%;
+    padding: 0 15px;
+    z-index: 50;
+    top: 180px;
     text-align: center;
+    color: #FFF;
 }
 
-.jumbotron .h1, .jumbotron h1{
-    font-size: 34px;
-    color: white;
-}
-
-.jumbotron p{
-    color: white;
-    font-size: 19px;
+.carousel:before {
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 40;
+    background: url(../img/bg.png) repeat;
 }
 
 /**
@@ -101,13 +139,9 @@ ul.nav.navbar-nav.navbar-right{
 
  .container-grey{
     background-color:$lightgrey;
-    padding-top: 10px;
-    padding-bottom: 30px;
  }
 
  .container-yellow{
-    padding-top: 10px;
-    padding-bottom: 30px;
     background-color:$yellow;
     &.map {
         background-image: url("/img/mapa2.png");
