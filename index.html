@@ -31,19 +31,17 @@ layout: default
 		</div>
 	</div>
 
-	<div class="container-blue">
+	<div class="container-blue metodologia">
 		<div class="container">
 			<h2>METODOLOGÍA</h2>
 				<div class="row">
 					{% for methodology in site.methodologies %}
-						<div class="col-md-9 methodology">
-							<div class="row">
-								<div class="col-md-2 person">
-									<img src="{{methodology.pictogram}}">
-								</div>
-								<div class="col-md-10">
-									{{methodology.content}}
-								</div>
+						<div class="row">
+							<div class="col-md-2">
+								<img src="{{methodology.pictogram}}">
+							</div>
+							<div class="col-md-10">
+								<span>{{methodology.content}}</span>
 							</div>
 						</div>
 			  		{% endfor %}
