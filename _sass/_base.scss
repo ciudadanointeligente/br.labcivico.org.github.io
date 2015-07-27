@@ -167,7 +167,7 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 30px;
     color: white;
 }
@@ -236,6 +236,10 @@ body {
     color: $grey;
     background-color: $lightgrey;
     -webkit-text-size-adjust: 100%;
+}
+
+span{
+    font-size: 17px;
 }
 
 /**
