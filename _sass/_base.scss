@@ -129,11 +129,6 @@ section {
     background-color:white;
     padding-top: 10px;
     padding-bottom: 30px;
-    background-image: url("/img/equipo.png");
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-position-x:940px;
-    background-position-y:230px;
     min-height: 580px;
  }
 
@@ -147,7 +142,7 @@ section {
         background-image: url("/img/mapa2.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        background-position-x:800px;
+        background-position-x:90%;
         background-position-y: -10px;
         min-height: 410px;
     }
@@ -155,7 +150,7 @@ section {
         background-image: url("/img/agenda.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        background-position-x:970px;
+        background-position-x:90%;
         background-position-y: 90px;
         min-height: 480px;
     }
@@ -168,7 +163,7 @@ section {
     background-image: url("/img/sumate.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-position-x:0;
+    background-position-x:0%;
     background-position-y:130px;
     min-height: 450px;
     }
@@ -181,7 +176,7 @@ section {
     background-image: url("/img/about.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-position-x:700px;
+    background-position-x:90%;
     background-position-y:-10px;
     min-height: 550px;
     padding-top: 25px;
