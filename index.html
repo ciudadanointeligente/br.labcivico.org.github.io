@@ -8,7 +8,7 @@ layout: default
       <!-- wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="img/01.jpg" alt="First slide">
+          <img src="img/01.jpg" alt="First slide">
         </div>
         <div class="item">
           <img src="img/02.jpg" alt="Second slide">
@@ -26,45 +26,45 @@ layout: default
           </div>
         </div>
 
-      <div class="jumbotron-intro">
-        <div class="container">
-          <div class="row">
-            <div class="blk col-md-12">
-              <h1>Colaboración, tecnología e incidencia para el cambio social</h1>
-              <p>Nos propusimos integrar a los sectores sociales y tecnológicos para fortalecer el desarrollo herramientas innovadoras. </p>
-              <a href="#metodologia"><i class="fa fa-chevron-down fa-2x"></i></a>
+        <div class="jumbotron-intro">
+          <div class="container">
+            <div class="row">
+              <div class="blk col-md-12">
+                <h1>Colaboración, tecnología e incidencia para el cambio social</h1>
+                <p>Nos propusimos integrar a los sectores sociales y tecnológicos para fortalecer el desarrollo herramientas innovadoras. </p>
+                <a href="#metodologia"><i class="fa fa-chevron-down fa-2x"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-        </div>
     </div>
   </div>
 
   <section class="container-blue" id="metodologia">
     <div class="container">
       <h2>METODOLOGÍA</h2>
-        <div class="row">
-          <div class="col-md-12">
-          <span><b>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</b></span>
-            {% for methodology in site.methodologies %}
-              <div class="row">
-                <div class="col-md-2 pictos">
-                  <img src="{{methodology.pictogram}}">
-                </div>
-                <div class="col-md-10">
-                  <span>{{methodology.content}}</span>
-                </div>
+      <div class="row">
+        <div class="col-md-12">
+        <span><b>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</b></span>
+          {% for methodology in site.methodologies %}
+            <div class="row">
+              <div class="col-md-2 pictos">
+                <img src="{{methodology.pictogram}}">
               </div>
-              {% endfor %}
-          </div>
+              <div class="col-md-10">
+                <span>{{methodology.content}}</span>
+              </div>
+            </div>
+            {% endfor %}
         </div>
+      </div>
     </div>
   </section>
 
   <section class="container-yellow map" id="iniciativas">
-  <div class="container">
-    <h2>INICIATIVAS</h2>
+    <div class="container">
+      <h2>INICIATIVAS</h2>
       <div class="row">
         {% for initiative in site.initiatives %}
         <div class="col-md-3 initiatives">
@@ -73,7 +73,7 @@ layout: default
         </div>
         {% endfor %}
       </div>
-  </div>
+    </div>
   </section>
 
 <!--  <section class="container-grey" id="proyectos">
@@ -98,71 +98,71 @@ layout: default
   <section class="container-grey" id="blog">
     <div class="container">
       <h2>BLOG</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="list-unstyled">
-              {% for entry in site.posts %}
-              <li>
-                  <h3>{{entry.title}}</h3>
-                  <p>{{entry.description}}</p>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div class="col-md-12">
-            <button class="btn btn-default blue">Ver todas las entradas</button>
-          </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            {% for entry in site.posts %}
+            <li>
+              <h3>{{entry.title}}</h3>
+              <p>{{entry.description}}</p>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
+        <div class="col-md-12">
+          <button class="btn btn-default blue">Ver todas las entradas</button>
+        </div>
+      </div>
     </div>
   </section>
 
-<!-- 	<section class="container-grey" id="proyectos">
-		<div class="container">
-			<h2>PROYECTOS</h2>
-				<div class="row">
-					{% for project in site.projects %}
-					<div class="col-md-3 project">
-						<div style="background-image:url({{project.image}})">
-							<div class="projects">
-								<a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
-								<h4>{{project.h4}}</h4>	
-								<h5>{{project.h5}}</h5>									
-							</div>
-						</div>
-					</div>
-					{% endfor %}
-				</div>
-		</div>
-	</section> -->
+<!--  <section class="container-grey" id="proyectos">
+    <div class="container">
+      <h2>PROYECTOS</h2>
+        <div class="row">
+          {% for project in site.projects %}
+          <div class="col-md-3 project">
+            <div style="background-image:url({{project.image}})">
+              <div class="projects">
+                <a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
+                <h4>{{project.h4}}</h4>
+                <h5>{{project.h5}}</h5>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </section> -->
 
-	<section class="container-blue sumate" id="sumate">
-		<div class="container">
-			<h2>SÚMATE</h2>
-				<div class="row">
-				<div class="col-md-8">
-					<form class="form-inline">
-						<div class="form-group">
-							<label class="sr-only" for="exampleInputName3">Nombre</label>
-							<input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
-						</div>
-						<div class="form-group">
-							<label class="sr-only" for="exampleInputCountryl3">País</label>
-							<input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
-						</div>
-						<div class="form-group">
-							<label class="sr-only" for="exampleInputEmail3">Email</label>
-							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-						</div>
-					</form>
-					<form>
-						<input type="text" class="form-control" placeholder="Déjanos un mensaje">
-						<button type="submit" class="btn btn-warning yellow">Enviar</button>
-					</form>
-				</div>
-				<div class="col-md-4">
-					<a class="twitter-timeline" href="https://twitter.com/hashtag/LabCivico" data-widget-id="625768709542572033">Tweets sobre #LabCivico</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-		</div>
-	</Section>
+  <section class="container-blue sumate" id="sumate">
+    <div class="container">
+      <h2>SÚMATE</h2>
+        <div class="row">
+        <div class="col-md-8">
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputName3">Nombre</label>
+              <input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputCountryl3">País</label>
+              <input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail3">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+            </div>
+          </form>
+          <form>
+            <input type="text" class="form-control" placeholder="Déjanos un mensaje">
+            <button type="submit" class="btn btn-warning yellow">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <a class="twitter-timeline" href="https://twitter.com/hashtag/LabCivico" data-widget-id="625768709542572033">Tweets sobre #LabCivico</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+    </div>
+  </section>
 </div>
