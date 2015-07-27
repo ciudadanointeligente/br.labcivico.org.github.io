@@ -188,7 +188,7 @@ section {
     background-blend-mode: multiply;
     background-position-x:90%;
     background-position-y:-10px;
-    min-height: 550px;
+    min-height: 700px;
     padding-top: 25px;
     }
  }
@@ -275,7 +275,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $grey;
     background-color: $lightgrey;
     -webkit-text-size-adjust: 100%;
@@ -310,8 +310,8 @@ a:hover{
 }
 
 .container-blue.about a{
-    color: $darkblue;
-    font-weight: 400;
+    color: white;
+    font-weight: 700;
 }
 
 /**
