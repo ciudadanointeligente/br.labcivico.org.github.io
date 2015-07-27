@@ -36,6 +36,10 @@ ul.nav.navbar-nav.navbar-right{
     color: $darkblue;
 }
 
+.navbar-default .navbar-nav > li > a:hover{
+    color: $blue;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
     background-color: transparent;
     color: $blue;
