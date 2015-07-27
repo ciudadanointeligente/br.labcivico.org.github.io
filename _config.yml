@@ -1,15 +1,11 @@
-# Site settings
+# site settings
 title: LabCívico
 email: prensa@ciudadanointeligente.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "//ciudadanointeligente.github.io/labcivico/" # the subpath of your site, e.g. /blog/
-twitter_username: jekyllrb
-github_username:  jekyll
+description: 'Experimientos ciudadanos para el cambio social en la región'
+baseurl: '//labcivico.org' #"//ciudadanointeligente.github.io/labcivico/"
+basedomain: labcivico.org
 
-# Build settings
+# build settings
 markdown: kramdown
 
 collections:
