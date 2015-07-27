@@ -21,6 +21,10 @@ a .fa-chevron-down {
     border-radius: 30px;
 }
 
+a .fa-chevron-down:hover {
+    background-color:$darkblue;
+}
+
 .navbar-default{
     background-color: white;
     border: none;
@@ -337,3 +341,30 @@ a:hover{
     }   
 }
 
+/*Blog*/
+
+section#blog {
+  margin-top: 40px;
+}
+
+#blog h1 {
+  color: $grey;
+}
+
+#blog h2 {
+  color: $grey;
+  margin-bottom: 10px;
+}
+
+.blog-menu {
+  margin-top: 110px;
+}
+
+.posts li {
+    border-top: 4px solid white;
+    padding-bottom: 40px;
+}
+
+.posts img {
+    width: 100%;
+}
