@@ -200,7 +200,7 @@ a .fa-chevron-down:hover {
  .container-yellow{
     background-color:$yellow;
     &.map {
-        background-image: url("./img/mapa2.png");
+        background-image: url("../img/mapa2.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
         background-position-x:90%;
@@ -208,7 +208,7 @@ a .fa-chevron-down:hover {
         min-height: 410px;
     }
     &.timeline {
-        background-image: url("./img/agenda.png");
+        background-image: url("../img/agenda.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
         background-position-x:90%;
@@ -221,7 +221,7 @@ a .fa-chevron-down:hover {
     background-color:$blue;
     color: white;
     &.sumate{
-    background-image: url("/img/sumate.png");
+    background-image: url("../img/sumate.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position-x:0%;
@@ -234,7 +234,7 @@ a .fa-chevron-down:hover {
     &.about{
     min-height: 550px;
     margin-top: 70px;
-    background-image: url("/img/about.png");
+    background-image: url("../img/about.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position-x:90%;
@@ -404,6 +404,19 @@ section#blog-page {
 
 .posts img {
     width: 100%;
+}
+
+/*Input*/
+input{
+    border:none;
+    width: 152px;
+    height: 27px;
+    padding: 5px;
+}
+
+textarea{
+    border:none;
+    padding: 5px;
 }
 
 /*Footer*/
