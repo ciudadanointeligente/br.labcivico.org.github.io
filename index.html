@@ -21,7 +21,7 @@ layout: default
 					<div class="row">
 						<div class="blk col-md-12">
 							<h1>Colaboración, tecnología e incidencia para el cambio social</h1>
-							<a href="#"><i class="fa fa-chevron-down fa-2x"></i></a>
+							<a href="#metodologia"><i class="fa fa-chevron-down fa-2x"></i></a>
 						</div>
 					</div>
 				</div>
@@ -31,7 +31,7 @@ layout: default
 		</div>
 	</div>
 
-	<div class="container-blue metodologia">
+	<section class="container-blue" id="metodologia">
 		<div class="container">
 			<h2>METODOLOGÍA</h2>
 				<div class="row">
@@ -47,9 +47,9 @@ layout: default
 			  		{% endfor %}
 				</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="container-yellow map">
+	<section class="container-yellow map" id="iniciativas">
 	<div class="container">
 		<h2>INICIATIVAS</h2>
 			<div class="row">
@@ -61,9 +61,9 @@ layout: default
 				{% endfor %}
 			</div>
 	</div>
-	</div>
+	</section>
 
-	<div class="container-grey">
+	<section class="container-grey" id="proyectos">
 		<div class="container">
 			<h2>PROYECTOS</h2>
 				<div class="row">
@@ -80,58 +80,58 @@ layout: default
 					{% endfor %}
 				</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="container-yellow">
-	<div class="container">
-		<h2>BLOG</h2>
-			<div class="row">
-				<div class="col-md-6">
-					<ul class="list-unstyled">
-						{% for entry in site.posts %}
-						<li>
-								<h3>{{entry.title}}</h3>
-								<p>{{entry.description}}</p>
-						</li>
-						{% endfor %}
-					</ul>
+	<section class="container-yellow" id="blog">
+		<div class="container">
+			<h2>BLOG</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="list-unstyled">
+							{% for entry in site.posts %}
+							<li>
+									<h3>{{entry.title}}</h3>
+									<p>{{entry.description}}</p>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="col-md-12">
+						<button class="btn btn-default blue">Ver todas las entradas</button>
+					</div>
 				</div>
-				<div class="col-md-12">
-					<button class="btn btn-default blue">Ver todas las entradas</button>
+		</div>
+	</section>
+
+	<section class="container-blue sumate" id="sumate">
+		<div class="container">
+			<h2>SÚMATE</h2>
+				<div class="row">
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputName3">Nombre</label>
+							<input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputCountryl3">País</label>
+							<input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputEmail3">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+						</div>
+					</form>
+					<form>
+						<input type="text" class="form-control" placeholder="Déjanos un mensaje">
+						<button type="submit" class="btn btn-default yellow">Enviar</button>
+					</form>
 				</div>
-			</div>
-	</div>
-	</div>
-
-	<div class="container-blue sumate">
-	<div class="container">
-		<h2>SÚMATE</h2>
-			<div class="row">
-			<div class="col-md-8">
-				<form class="form-inline">
-					<div class="form-group">
-						<label class="sr-only" for="exampleInputName3">Nombre</label>
-						<input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="exampleInputCountryl3">País</label>
-						<input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
-					</div>
-					<div class="form-group">
-						<label class="sr-only" for="exampleInputEmail3">Email</label>
-						<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-					</div>
-				</form>
-				<form>
-					<input type="text" class="form-control" placeholder="Déjanos un mensaje">
-					<button type="submit" class="btn btn-default yellow">Enviar</button>
-				</form>
-			</div>
 
 
 
 
-			</div>
-	</div>
-	</div>
+				</div>
+		</div>
+	</Section>
 </div>

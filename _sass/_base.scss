@@ -6,6 +6,13 @@ body {
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+a {
+  color: $blue;
+}
+
+a:focus, a:hover {
+    color: $darkblue;
+}
 
 .navbar-default{
     background-color: white;
@@ -74,6 +81,9 @@ ul.nav.navbar-nav.navbar-right{
 .jumbotron{
     position: relative;
     overflow: hidden;
+    max-height: 810px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .jumbotron-intro {
