@@ -105,12 +105,12 @@ ul.nav.navbar-nav.navbar-right{
     padding-bottom: 30px;
     background-color:$yellow;
     &.map {
-        background-image: url("/img/mapa.png");
+        background-image: url("/img/mapa2.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
-        background-position-x:650px;
+        background-position-x:800px;
         background-position-y: -10px;
-        min-height: 560px;
+        min-height: 410px;
     }
     &.timeline {
         background-image: url("/img/agenda.png");
@@ -204,8 +204,6 @@ h5{
  * Basic styling
  */
 .col-md-3 {
-    &.initiatives {
-    padding-top: 100px;    }
     &.project{
         min-height: 200px;
         margin-bottom: 30px;
