@@ -14,17 +14,6 @@ a:focus, a:hover {
     color: $darkblue;
 }
 
-a .fa-chevron-down {
-    background-color:$blue;
-    color: rgb(255, 255, 255);
-    padding: 15px;
-    border-radius: 30px;
-}
-
-a .fa-chevron-down:hover {
-    background-color:$darkblue;
-}
-
 .navbar-default{
     background-color: white;
     border: none;
@@ -93,6 +82,53 @@ section {
 li.redes {
     margin-top: -9px;
     width: 40px;
+}
+
+/*Buttons*/
+
+.btn {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-default {
+  background-color: $blue;
+}
+
+.btn-default:hover {
+    background-color: $magenta;
+    color: white;
+}
+
+.btn-warning {
+  background-color: $yellow;
+}
+
+.btn-warning:hover {
+  background-color: $orange;
+}
+
+a .fa-chevron-down {
+    background-color:$blue;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a .fa-chevron-down:hover {
+    background-color:$magenta;
 }
 
 /**
@@ -334,21 +370,6 @@ a:hover{
 
 .text.form-control{
     min-height: 100px;
-}
-
-.btn-default{
-    color: white;
-    border: none;
-    border-radius: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    &.yellow{
-        background-color: $yellow;
-    }
-    &.blue{
-        background-color: $blue;
-        margin-top: 30px;
-    }
 }
 
 /*Blog*/

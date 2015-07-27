@@ -116,31 +116,53 @@ layout: default
     </div>
   </section>
 
-  <section class="container-blue sumate" id="sumate">
-    <div class="container">
-      <h2>SÚMATE</h2>
-        <div class="row">
-        <div class="col-md-8">
-          <form class="form-inline">
-            <div class="form-group">
-              <label class="sr-only" for="exampleInputName3">Nombre</label>
-              <input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="exampleInputCountryl3">País</label>
-              <input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="exampleInputEmail3">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Correo electrónico">
-            </div>
-          </form>
-          <form>
-            <textarea class="form-control" placeholder="Déjanos un mensaje"></textarea>
-            <button type="submit" class="btn btn-default yellow">Enviar</button>
-          </form>
-        </div>
-        </div>
-    </div>
-  </section>
+<!-- 	<section class="container-grey" id="proyectos">
+		<div class="container">
+			<h2>PROYECTOS</h2>
+				<div class="row">
+					{% for project in site.projects %}
+					<div class="col-md-3 project">
+						<div style="background-image:url({{project.image}})">
+							<div class="projects">
+								<a href="{{ site.baseurl }}/"><span class="label yellow">{{project.country}}</span></a>
+								<h4>{{project.h4}}</h4>	
+								<h5>{{project.h5}}</h5>									
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+		</div>
+	</section> -->
+
+	<section class="container-blue sumate" id="sumate">
+		<div class="container">
+			<h2>SÚMATE</h2>
+				<div class="row">
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputName3">Nombre</label>
+							<input type="name" class="form-control" id="exampleInputName3" placeholder="Nombre">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputCountryl3">País</label>
+							<input type="country" class="form-control" id="exampleInputCountry3" placeholder="País">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="exampleInputEmail3">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+						</div>
+					</form>
+					<form>
+						<input type="text" class="form-control" placeholder="Déjanos un mensaje">
+						<button type="submit" class="btn btn-warning yellow">Enviar</button>
+					</form>
+				</div>
+				<div class="col-md-4">
+					<a class="twitter-timeline" href="https://twitter.com/hashtag/LabCivico" data-widget-id="625768709542572033">Tweets sobre #LabCivico</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+		</div>
+	</Section>
 </div>
