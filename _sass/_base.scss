@@ -75,6 +75,10 @@ ul.nav.navbar-nav.navbar-right{
     background-color: transparent;;
 }
 
+section {
+    padding: 70px 0 100px;
+}
+
 /**
  * Jumbotron
  */
@@ -128,13 +132,9 @@ ul.nav.navbar-nav.navbar-right{
 
  .container-grey{
     background-color:$lightgrey;
-    padding-top: 10px;
-    padding-bottom: 30px;
  }
 
  .container-yellow{
-    padding-top: 10px;
-    padding-bottom: 30px;
     background-color:$yellow;
     &.map {
         background-image: url("/img/mapa2.png");
