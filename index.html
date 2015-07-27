@@ -44,18 +44,16 @@ layout: default
   <section class="container-blue" id="metodologia">
     <div class="container">
       <h2>METODOLOGÍA</h2>
-      <div class="row">
-        <div class="col-md-12">
-        <span><b>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</b></span>
-          {% for methodology in site.methodologies %}
-            <div class="row">
-              <div class="col-md-2 pictos">
-                <img src="{{methodology.pictogram}}">
+        <div class="bajada">¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</div>
+            {% for methodology in site.methodologies %}
+              <div class="row">
+                <div class="col-md-2 pictos">
+                  <img src="{{methodology.pictogram}}">
+                </div>
+                <div class="col-md-10">
+                  <span>{{methodology.content}}</span>
+                </div>
               </div>
-              <div class="col-md-10">
-                <span>{{methodology.content}}</span>
-              </div>
-            </div>
             {% endfor %}
         </div>
       </div>
@@ -98,19 +96,20 @@ layout: default
   <section class="container-grey" id="blog">
     <div class="container">
       <h2>BLOG</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <ul class="list-unstyled">
-            {% for entry in site.posts %}
-            <li>
-              <h3>{{entry.title}}</h3>
-              <p>{{entry.description}}</p>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-md-12">
-          <button class="btn btn-default blue">Ver todas las entradas</button>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-unstyled">
+              {% for entry in site.posts %}
+              <li>
+                  <h3>{{entry.title}}</h3>
+                  <p>{{entry.description}}</p>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <button class="btn btn-default pull-right">Ver todas las entradas</button>
+          </div>
         </div>
       </div>
     </div>
