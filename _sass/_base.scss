@@ -200,7 +200,7 @@ a .fa-chevron-down:hover {
  .container-yellow{
     background-color:$yellow;
     &.map {
-        background-image: url("../img/mapa2.png");
+        background-image: url("../img/mapa.png");
         background-repeat: no-repeat;
         background-blend-mode: multiply;
         background-position-x:90%;
@@ -302,6 +302,33 @@ h5{
 /**
  * Cols
  */
+ .col-md-2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color:$blue;
+    vertical-align: middle;
+    &.m01{
+        min-height: 70px;
+        background-image: url(../img/m01.png);
+    }
+    &.m02{
+        min-height: 74px;
+        background-image: url(../img/m02.png);
+    }
+    &.m03{
+        min-height: 70px;
+        background-image: url(../img/m03.png);
+    }
+    &.m04{
+        min-height: 70px;
+        background-image: url(../img/m04.png);
+    }
+    &.m05{
+        min-height: 74px;
+        background-image: url(../img/m05.png);
+    }
+}
 .col-md-3 {
     &.project{
         min-height: 200px;
@@ -316,6 +343,12 @@ h5{
     }
     &.person{
         margin-top: 15px;
+    }
+}
+
+.col-md-12 {
+    &.met{
+        margin-top: 30px;
     }
 }
 
