@@ -44,10 +44,7 @@ layout: default
   <section class="container-blue" id="metodologia">
     <div class="container">
       <h2>METODOLOGÍA</h2>
-      <div class="row">
-        <div class="col-md-12">
-        <span><b>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</b></span>
-        
+      <div class="bajada">¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas:</div>
           <div class="col-md-12 met">
             <div class="row">
               <div class="col-md-2 m01">
@@ -97,7 +94,6 @@ layout: default
                 </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -139,19 +135,20 @@ layout: default
   <section class="container-grey" id="blog">
     <div class="container">
       <h2>BLOG</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <ul class="list-unstyled">
-            {% for entry in site.posts %}
-            <li>
-              <h3>{{entry.title}}</h3>
-              <p>{{entry.description}}</p>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-md-12">
-          <button class="btn btn-default blue">Ver todas las entradas</button>
+        <div class="row">
+          {% for entry in site.posts %}
+	          <div class="col-md-4">
+	            <ul class="list-unstyled">
+	              <li>
+	                  <a href="{{ site.baseurl }}/blog.html#{{ entry.number }}"><h3>{{ entry.title }}</h3></a>
+	                  <p>{{ entry.excerpt }}</p>
+	              </li>
+	            </ul>
+	          </div>
+          {% endfor %}
+          <div class="col-md-12">
+            <button class="btn btn-default pull-right">Ver todas las entradas</button>
+          </div>
         </div>
       </div>
     </div>

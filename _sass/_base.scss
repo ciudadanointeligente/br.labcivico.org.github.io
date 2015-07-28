@@ -14,6 +14,12 @@ a:focus, a:hover {
     color: $darkblue;
 }
 
+.bajada {
+    margin: -25px 0 40px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
 .navbar-default{
     background-color: white;
     border: none;
@@ -262,7 +268,7 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 26px;
     margin-bottom: 2px;
 }
@@ -460,4 +466,54 @@ textarea{
 
 .site-footer a:hover, .site-footer a:focus {
   color: #FFF;
+}
+
+/*Media-queries*/
+
+@media (max-width: 1000px) {
+
+  .jumbotron .h1, .jumbotron h1 {
+    font-size: 42px;
+  }
+
+  .jumbotron p {
+    font-size: 21px;
+  }
+
+  .site-footer li {
+      text-align: center;
+  }
+
+  .pictos {
+    text-align: center;
+  }
+
+  .blog-menu {
+    display: none;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .jumbotron p {
+    display: none;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .jumbotron-intro {
+      top: 75px;
+  }
+
+  .jumbotron h1 {
+      font-size: 31px;
+  }
+
+  a .fa-chevron-down {
+      display: none;
+  }
+
 }
