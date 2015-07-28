@@ -136,8 +136,8 @@ layout: default
     <div class="container">
       <h2>BLOG</h2>
         <div class="row">
-          {% for entry in site.posts | limit:3 | sort:date%}
-	          <div class="col-md-4">
+          {% for entry in site.posts | limit:2 | sort:date%}
+	          <div class="col-md-6">
 	            <ul class="list-unstyled">
 	              <li>
 	                  <a href="{{ site.baseurl }}/blog.html#{{ entry.number }}"><h3>{{ entry.title }}</h3></a>
