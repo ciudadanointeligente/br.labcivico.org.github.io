@@ -9,7 +9,7 @@ layout: default
           <ul class="list-unstyled">
             <li>
               <small>{{ post.date | date_to_string }}</small>
-              <a href="{{ site.baseurl }}#{{ post.id }}">{{ post.title }}</a>
+              <a href="{{ site.baseurl }}#{{ post.number }}">{{ post.title }}</a>
             </li>
           </ul>
         {% endfor %}
@@ -18,7 +18,7 @@ layout: default
         <h1>Blog</h1>
         <ul class="posts list-unstyled">
           {% for post in site.posts %}
-            <li id="{{ post.id }}">
+            <li id="{{ post.number }}">
               <h2>{{ post.title }}</h2>
               <small>{{ post.date | date_to_string }} por {{ post.author }}</small>
               <p>{{ post.content }}</p>
