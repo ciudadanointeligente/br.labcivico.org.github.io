@@ -442,14 +442,22 @@ section#blog-page {
 /*Input*/
 input{
     border:none;
-    width: 152px;
-    height: 27px;
-    padding: 5px;
+    width: 100%;
+    height: 36px;
+    padding: 8px;
+    float: left;
+    margin-bottom: 4px;
 }
 
 textarea{
     border:none;
-    padding: 5px;
+    padding: 8px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+label{
+    float: left;
 }
 
 /*Footer*/
