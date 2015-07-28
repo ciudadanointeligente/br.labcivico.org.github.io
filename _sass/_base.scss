@@ -224,8 +224,8 @@ a .fa-chevron-down:hover {
     background-image: url("../img/sumate.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-position-x:0%;
-    background-position-y:130px;
+    background-position-x:-20px;
+    background-position-y:0px;
     min-height: 450px;
     }
     &.metodologia{
@@ -499,14 +499,14 @@ label{
   position: relative;
 }
 .timeline:before {
-  top: 0;
+  top: 400px;
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
+  width: 100%;
+  height: 3px;
   background-color: #eeeeee;
-  left: 50%;
-  margin-left: -1.5px;
+  left: 0;
 }
 .timeline > li {
   margin-bottom: 20px;
