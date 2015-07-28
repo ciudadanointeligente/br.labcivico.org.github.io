@@ -302,33 +302,49 @@ h5{
 /**
  * Cols
  */
- .col-md-2 {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
-    background-color:$blue;
-    vertical-align: middle;
+ .col-md-12{ 
     &.m01{
-        min-height: 70px;
+        min-height: 90px;
         background-image: url(../img/m01.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color:$blue;
     }
     &.m02{
-        min-height: 74px;
+        min-height: 90px;
         background-image: url(../img/m02.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color:$blue;
     }
     &.m03{
-        min-height: 70px;
+        min-height: 90px;
         background-image: url(../img/m03.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color:$blue;
     }
     &.m04{
-        min-height: 70px;
+        min-height: 90px;
         background-image: url(../img/m04.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color:$blue;
     }
     &.m05{
-        min-height: 74px;
+        min-height: 90px;
         background-image: url(../img/m05.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color:$blue;
     }
 }
+
 .col-md-3 {
     &.project{
         min-height: 200px;
@@ -346,9 +362,16 @@ h5{
     }
 }
 
-.col-md-12 {
+ .col-md-12{ 
     &.met{
-        margin-top: 30px;
+      text-align: center;
+      margin-top: 10px;
+    }
+}
+
+ .col-md-2{ 
+    &.met{
+      margin-top: 40px;
     }
 }
 
@@ -366,7 +389,7 @@ body {
 }
 
 span{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 /**
