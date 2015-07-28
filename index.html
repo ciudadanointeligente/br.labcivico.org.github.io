@@ -136,7 +136,7 @@ layout: default
     <div class="container">
       <h2>BLOG</h2>
         <div class="row">
-          {% for entry in site.posts %}
+          {% for entry in site.posts | limit:3 | sort:date%}
 	          <div class="col-md-4">
 	            <ul class="list-unstyled">
 	              <li>
