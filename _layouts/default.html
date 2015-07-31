@@ -41,7 +41,11 @@ ga('send', 'pageview');
 <script>
 $(document).ready(function(){
     $(".rounded-button").click(function(){
-        $(".timeline-panel").toggle();
+        var element = $(this).data('relation');
+        console.log(element);
+        $('#'+element).removeClass('hidden');
+        // $('#'+element).toggle();
+
     });
 });
 </script>

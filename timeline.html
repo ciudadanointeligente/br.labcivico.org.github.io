@@ -12,23 +12,26 @@ layout: default
 	<div class="container-yellow agenda">
 		<div class="container">
 			<h2>AGENDA</h2>
-				<div class="row">
-					<div class="col-md-4 agenda">
-						<div class="timeline-panel">
+				<div class="row agenda-container">
+					<div class="col-md-4 text-center">
+						<div id="agenda-uno" class="timeline-panel hidden">
 		                    <div class="timeline-heading">
 		                      Jornada de <br>problematización
 		                    </div>
 		                    <div class="timeline-body">
 		                      <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis.</p>
-		                      <button class="btn btn-default pull-right">Ver todas las entradas</button>
+		                      <button class="btn btn-default pull-right">Más info</button>
 		                    </div>
 	                  	</div>
-						<h3>Jornada de <br>problematización</h3>
-						<span class="rounded-button"></span>
-						<h3>18 de junio</h3>
+	                  	<div class="bajada">
+	                  		<h3>Jornada de <br>problematización</h3>
+							<span class="rounded-button" data-relation="agenda-uno"></span>
+							<h3>18 de junio</h3>
+	                  	</div>
+						
 					</div>
-					<div class="col-md-4 agenda">
-						<div class="timeline-panel">
+					<div class="col-md-4 text-center">
+						<div id="agenda-dos" class="timeline-panel hidden">
 		                    <div class="timeline-heading">
 		                      Jornada de desarrollo<br>de soluciones tecnológicas
 		                    </div>
@@ -37,11 +40,11 @@ layout: default
 		                    </div>
 	                  	</div>
 						<h3>Jornada de desarrollo<br>de soluciones tecnológicas</h3>
-						<span class="rounded-button"></span>
+						<span class="rounded-button" data-relation="agenda-dos"></span>
 						<h3>19 de junio</h3>
 					</div>
-					<div class="col-md-4 agenda">
-						<div class="timeline-panel">
+					<div class="col-md-4 text-center">
+						<div id="agenda-tres" class="timeline-panel hidden">
 		                    <div class="timeline-heading">
 		                      Taller sobre violencia de género Hackeando el Machismo
 		                    </div>
@@ -50,7 +53,7 @@ layout: default
 		                    </div>
 	                  	</div>
 						<h3>Taller sobre violencia de género Hackeando el Machismo</h3>
-						<span class="rounded-button"></span>
+						<span class="rounded-button" data-relation="agenda-tres"></span>
 						<h3>18 de julio</h3>
 					</div>
 				</div>
