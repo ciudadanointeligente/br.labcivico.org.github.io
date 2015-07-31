@@ -497,6 +497,11 @@ label{
   }
 }
 
+.col-md-4 h3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
 .col-md-12{
     &.timeline{
     padding-left: 0px;
@@ -512,9 +517,10 @@ label{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    margin-top: 26px;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: center;
+    line-height: 1.1;
 }
 
 .timeline-body{
@@ -555,24 +561,13 @@ span.rounded-button {
 }*/
 
 .timeline-panel {
-  min-height: 200px;
-/*  float: left;
-*/  padding: 15px;
+  min-height: 210px;
+  padding: 15px;
   position: relative;
   background-color: white;
 }
-.timeline > li > .timeline-panel:before {
-  position: absolute;
-  top: 26px;
-  right: -15px;
-  display: inline-block;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
-  border-bottom: 15px solid transparent;
-  content: " ";
-}
-.timeline > li > .timeline-panel:after {
+
+.timeline-panel:after {
   position: absolute;
   top: 27px;
   right: -14px;
