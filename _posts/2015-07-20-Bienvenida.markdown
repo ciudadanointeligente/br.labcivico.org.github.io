@@ -1,7 +1,7 @@
 ---
 number: post01
 layout: default
-title:  "Colaboración, tecnología e incidencia para el cambio social. Bienvenidos a Lab Cívico"
+title:  "Colaboración, tecnología e incidencia para el cambio social. ¡Bienvenid@s a Lab Cívico!"
 date:   2015-07-20 16:42:13
 author: Daniela Tejada
 categories: jekyll update

@@ -1,7 +1,7 @@
 ---
 number: post02
 layout: default
-title:  "El taller de “Hackeando al machismo”, un encuentro de saberes"
+title:  "Taller “Hackeando al machismo”, un encuentro de saberes"
 date:   2015-07-28
 author: Andrea Terceros Hans
 categories: jekyll update
