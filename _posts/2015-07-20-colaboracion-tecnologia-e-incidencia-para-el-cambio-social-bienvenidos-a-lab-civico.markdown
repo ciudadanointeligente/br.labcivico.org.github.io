@@ -1,10 +1,9 @@
 ---
 number: post01
-layout: default
+layout: post
 title:  "Colaboración, tecnología e incidencia para el cambio social. ¡Bienvenid@s a Lab Cívico!"
 date:   2015-07-20 16:42:13
 author: Daniela Tejada
-categories: jekyll update
 excerpt: Muchas de las personas que siguen el trabajo de Ciudadano Inteligente conocen nuestro rol de seguimiento, activismo y fiscalización de la agenda legislativa y de los temas vinculados a transparencia y probidad en Chile, a lo que se suma lo que últimamente hemos estado haciendo como querellantes de los casos Penta-SQM. Pero lo cierto es que esa es sólo nuestra arista de incidencia en Chile, que no representa todo nuestro trabajo como fundación. 
 ---
 <p>Muchas de las personas que siguen el trabajo de Ciudadano Inteligente conocen nuestro rol de seguimiento, activismo y fiscalización de la agenda legislativa y de los temas vinculados a transparencia y probidad en Chile, a lo que se suma lo que últimamente hemos estado haciendo como querellantes de los casos Penta-SQM. Pero lo cierto es que esa es sólo nuestra arista de incidencia en Chile, que no representa todo nuestro trabajo como fundación. Gran parte de nuestra actividad también se enfoca en hacer herramientas tecnológicas reutilizables que, primero implementamos, evaluamos y retroalimentamos en Chile, y luego replicamos en otros países en conjunto a organizaciones. Siguiendo esta misma línea, quisimos seguir impulsando un mayor flujo de tecnología a través del desarrollo de plataformas y a su vez, intentamos potenciar estrategias útiles para el activismo digital y la generación de incidencia. Precisamente de eso es de lo que quiero hablar.</p>
