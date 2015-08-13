@@ -103,6 +103,12 @@ li.redes {
     border: none;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
 }
 
 .btn-default {
@@ -120,6 +126,11 @@ li.redes {
 
 .btn-warning:hover {
   background-color: $orange;
+}
+
+button.btn.btn-default.btn-xs {
+    padding: 7px;
+    margin-bottom: 15px;
 }
 
 a .fa-chevron-down {

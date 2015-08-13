@@ -16,8 +16,8 @@
         <ul class="posts list-unstyled">
           {% for post in site.posts %}
             <li id="{{ post.number }}">
-              <h2>{{ post.title }}</h2>
-              <small>{{ post.date | date_to_string }} por {{ post.author }}</small>
+              <h2><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></h2>
+                            <small>{{ post.date | date_to_string }} por {{ post.author }}</small>
               <p>{{ post.excerpt }} <span><a href="{{site.baseurl}}{{post.permalink}}">ver más</a></span></p>
             </li>
           {% endfor %}

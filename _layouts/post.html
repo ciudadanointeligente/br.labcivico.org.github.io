@@ -17,12 +17,12 @@ layout: default
         {% endfor %}
       </div>
       <div class="col-md-9">
+        <button class="btn btn-default btn-xs"><a href="{{ site.baseurl }}/blog.html">Volver a las entradas</a></button>
         <h1>{{ page.title }}</h1>
         <small>{{ page.date | date_to_string }} por {{ page.author }} • Tiempo de lectura : {{ words | plus: 250 | divided_by: 180 | append: " minuto(s)" }}</small>
         <p>{{ page.content }}</p>
       </div>
       <div class="col-md-12">
-        <button class="btn btn-default pull-right">Ver todas las entradas</button>
       </div>
     </div>
   </div>
