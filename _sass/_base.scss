@@ -6,8 +6,19 @@ body {
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+
 a {
   color: $blue;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 a:focus, a:hover {
@@ -104,11 +115,6 @@ li.redes {
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
-}
-
-.btn a{
-  color: white;
-  text-decoration: none;
 }
 
 .btn-default {
