@@ -103,6 +103,12 @@ li.redes {
     border: none;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
 }
 
 .btn-default {
@@ -116,10 +122,16 @@ li.redes {
 
 .btn-warning {
   background-color: $yellow;
+  line-height:1;
 }
 
 .btn-warning:hover {
   background-color: $orange;
+}
+
+button.btn.btn-default.btn-xs {
+    padding: 7px;
+    margin-bottom: 15px;
 }
 
 a .fa-chevron-down {
@@ -442,15 +454,15 @@ section#blog-page {
 
 #blog-page h1 {
   color: $grey;
+  margin-top:0px;
 }
 
 #blog-page h2 {
   color: $grey;
-  margin-top: 80px;
 }
 
 .blog-menu {
-  margin-top: 110px;
+  margin-top: 88px;
 }
 
 .posts li {

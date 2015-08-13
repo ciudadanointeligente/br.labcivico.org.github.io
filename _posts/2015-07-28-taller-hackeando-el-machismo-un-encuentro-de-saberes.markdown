@@ -1,10 +1,9 @@
 ---
 number: post02
-layout: default
+layout: post
 title:  "Taller “Hackeando al machismo”, un encuentro de saberes"
 date:   2015-07-28
 author: Andrea Terceros Hans
-categories: jekyll update
 excerpt: El pasado 18 de julio de 2015, alrededor de 20 personas se dieron cita en  la Universidad de Aquino Bolivia donde se realizó el taller introductorio de  “hackeando al machismo”, un proyecto del Lab Cívico que plantea luchar contra problemáticas sociales de género a través del  uso de nuevas tecnologías en comunicación. En este caso, identificar y denunciar la publicidad sexista que circula en los medios de comunicación del país. 
 ---
 <p>El pasado 18 de julio de 2015, alrededor de 20 personas se dieron cita en  la Universidad de Aquino Bolivia donde se realizó el taller introductorio de  “hackeando al machismo”, un proyecto del Lab Cívico que plantea luchar contra problemáticas sociales de género a través del  uso de nuevas tecnologías en comunicación. En este caso, identificar y denunciar la publicidad sexista que circula en los medios de comunicación del país.</p>
