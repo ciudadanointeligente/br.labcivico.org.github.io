@@ -282,6 +282,10 @@ h2{
     margin-bottom: 30px;
     margin-top: 30px;
     color: white;
+    &.blog{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -289,6 +293,9 @@ h3{
     font-size: 18px;
     margin-top: 26px;
     margin-bottom: 2px;
+    &.blog{
+    margin-top: 0;
+    }
 }
 
 h4{
