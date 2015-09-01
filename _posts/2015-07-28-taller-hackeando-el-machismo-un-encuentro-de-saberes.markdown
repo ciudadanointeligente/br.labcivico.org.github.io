@@ -1,6 +1,7 @@
 ---
 number: post02
 layout: post
+country: Bolivia
 title:  "Taller “Hackeando al machismo”, un encuentro de saberes"
 date:   2015-07-28
 author: Andrea Terceros Hans
