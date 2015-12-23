@@ -22,7 +22,7 @@ a {
 }
 
 a:focus, a:hover {
-    color: $darkblue;
+    color: $blue-dark;
 }
 
 .bajada {
@@ -55,7 +55,7 @@ a:focus, a:hover {
 }
 
 .sub-brand a:hover{
-    color: $darkblue;
+    color: $blue-dark;
 }
 
 ul.nav.navbar-nav.navbar-right{
@@ -63,7 +63,7 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 .navbar-default .navbar-nav>li>a{
-    color: $darkblue;
+    color: $blue-dark;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
@@ -83,7 +83,7 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 .dropdown-menu>li>a{
-    color: $darkblue;
+    color: $blue-dark;
     font-weight: 300;
 }
 
@@ -212,7 +212,7 @@ a .fa-chevron-down:hover {
  }
 
  .container-grey{
-    background-color:$lightgrey;
+    background-color:$grey-light;
  }
 
  .container-yellow{
@@ -402,7 +402,7 @@ body {
     line-height: $base-line-height;
     font-weight: 400;
     color: $grey;
-    background-color: $lightgrey;
+    background-color: $grey-light;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -420,7 +420,7 @@ span{
     font-size: 11px;
     line-height:4;
     &.yellow {
-        background-color: $darkyellow;
+        background-color: $yellow-dark;
     }
     &.orange{
         background-color: #DA6250;
@@ -657,7 +657,7 @@ span.rounded-button {
 /*Footer*/
 
 .site-footer {
-    background-color: $darkblue;
+    background-color: $blue-dark;
     color: white;
     padding: 40px 0;
 }
