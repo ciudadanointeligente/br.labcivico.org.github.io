@@ -10,11 +10,5 @@ analytics: 'UA-41822715-8'
 markdown: kramdown
 
 collections:
-  methodologies:
-    output: true
-  initiatives:
-    output: true
-  projects:
-    output: true
-  team:
+  projectscards:
     output: true
