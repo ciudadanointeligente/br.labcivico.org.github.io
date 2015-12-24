@@ -12,3 +12,9 @@ markdown: kramdown
 collections:
   projectscards:
     output: true
+  team:
+    output: true
+  projectteam01:
+    output: true
+  projectteam02:
+    output: true
