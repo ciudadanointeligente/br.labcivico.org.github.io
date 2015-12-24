@@ -15,13 +15,27 @@ layout: default
 
 <section class="container-grey" id="about">
 	<div class="container">
-		<h3 class="text-center">¿Cuál es el proceso?</h2>
+		<h3 class="text-center">¿Cuál es el proceso?</h3>
 	</div>
 </section>
 
 <section class="container-magenta" id="about">
 	<div class="container">
-		<h3 class="text-center">¿Cuál es el equipo?</h2>
+		<h3 class="text-center">¿Cuál es el equipo?</h3>
+		<div class="bajada text-center">
+      	<p>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas</p>
+    	</div>
+	    <div class="row">
+	      {% for person in site.team %}
+	        <div class="col-md-3">
+	            <div class="panel panel-default">
+	              {{person.image}}
+	              <h5 class="text-center">{{person.name}}</h5>
+	              <p>{{person.occupation}}</p>
+	            </div>
+	        </div>
+	      {% endfor %}
+	    </div>  
 	</div>
 </section>
 
