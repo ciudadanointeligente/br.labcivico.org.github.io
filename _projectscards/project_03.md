@@ -1,4 +1,5 @@
 ---
+layout: card
 title: Vota Inteligente
 image: //placehold.it/200x200
 country: Perú
