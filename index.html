@@ -48,19 +48,21 @@ layout: default
     <div class="container">
       <h2 class="text-center">Proyectos</h2>
       <div class="bajada text-center">
-        ¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas
+        <p>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas</p>
       </div>
       <div class="row">
+                {% for project in site.projectscards %}
+
         <div class="col-md-4">
-          <div class="panel panel-default">
-            {% for project in site.projectscards %}
+            <div class="panel panel-default">
               <h4>{{project.title}}</h4>
               <p>{{project.country}}</p>
               <p>{{project.theme}}</p>
               <p>{{project.content}}</p>
-            {% endfor %}
-          </div>
+            </div>
         </div>
+          {% endfor %}
+
       </div>    
     </div>
   </section>
