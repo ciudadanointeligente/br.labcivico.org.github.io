@@ -44,24 +44,58 @@ layout: default
     </div>
   </section>
 
-  <section class="container-yellow map">
+  <section class="container-yellow">
     <div class="container">
       <h2 class="text-center">Proyectos</h2>
       <div class="bajada text-center">
         <p>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas</p>
       </div>
       <div class="row">
-                {% for project in site.projectscards %}
+          <div class="col-md-4">
+              <div class="panel panel-default">
+                <h4 class="text-center">Hackeando al machismo</h4>
+                <img src="//placehold.it/320x150">
+                <p>Bolivia</p>
+                <p>Publicidad Sexista</p>
+                <p>Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.</p>
+                <a class="btn btn-info center-block" href="#" role="button">Ir al proyecto</a>
+              </div>
+          </div>
 
-        <div class="col-md-4">
-            <div class="panel panel-default">
-              <h4>{{project.title}}</h4>
-              <p>{{project.country}}</p>
-              <p>{{project.theme}}</p>
-              <p>{{project.content}}</p>
-            </div>
-        </div>
-          {% endfor %}
+          <div class="col-md-4">
+              <div class="panel panel-default">
+                <h4 class="text-center">ReciVeci</h4>
+                <img src="//placehold.it/320x150">
+                <p>Ecuador</p>
+                <p>Reciclaje comunitario</p>
+                <p>Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.</p>
+                <a class="btn btn-info center-block" href="#" role="button">Ir al proyecto</a>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="panel panel-default">
+                <h4 class="text-center">Vota Inteligente</h4>
+                <img src="//placehold.it/320x150">
+                <p>Perú</p>
+                <p>Elecciones presidenciales</p>
+                <p>Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.</p>
+                <a class="btn btn-info center-block" href="#" role="button">Ir al proyecto</a>
+              </div>
+          </div>
+      <!--
+          {% for card in site.projectscards %}
+          <div class="col-md-4">
+              <div class="panel panel-default">
+                <h4 class="text-center">{{card.title}}</h4>
+                {{card.image}}
+                <p>{{card.country}}</p>
+                <p>{{card.theme}}</p>
+                <p>{{card.content}}</p>
+                <a class="btn btn-info center-block" href="#" role="button">Ir al proyecto</a>
+              </div>
+          </div>
+        {% endfor %} -->
 
       </div>    
     </div>

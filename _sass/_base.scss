@@ -207,32 +207,42 @@ a .fa-chevron-down:hover {
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 40px;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 h4{
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 400;
     line-height: 0.7;
 }
 
 h5{
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 0.7;
 }
+
+/*PANELS*/
+
+.panel{
+  color: $grey;
+  padding: 15px;
+  border: none;
+  border-radius: 0;
+}
+
 
 /*FORM*/
 .form-control{

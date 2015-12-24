@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: card
 title: Reciveci
 image: //placehold.it/200x200
 country: Ecuador
