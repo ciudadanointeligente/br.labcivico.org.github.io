@@ -27,11 +27,11 @@ layout: default
     	</div>
 	    <div class="row">
 	      {% for person in site.team %}
-	        <div class="col-md-3">
+	        <div class="col-xs-6 col-sm-4 col-md-3">
 	            <div class="panel panel-default">
-	              {{person.image}}
-	              <h5 class="text-center">{{person.name}}</h5>
-	              <p>{{person.occupation}}</p>
+	              <img src="{{person.photo}}" class="person-photo"></img>
+	              <span>{{person.name}}</span>
+	              <p><small>{{person.occupation}}</small></p>
 	            </div>
 	        </div>
 	      {% endfor %}

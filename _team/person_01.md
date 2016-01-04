@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Nombrelargo Apellidolargo
+name: Marcelo Pérez
 occupation: Ocupación profesión
-image: //placehold.it/150x150
+photo: ../img/marcelo.png
 ---
