@@ -173,6 +173,9 @@ a .fa-chevron-down:hover {
 
  .container-grey{
     background-color:$grey-light;
+    h3{
+      color: $grey;
+    }
  }
 
  .container-yellow{
@@ -212,18 +215,18 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 h4{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 0.7;
 }
 
@@ -267,7 +270,7 @@ p.context{
 
     .timeline:before {
         top: 36px;
-        bottom: 38px;
+        bottom: -80px;
         position: absolute;
         content: " ";
         width: 4px;
@@ -307,6 +310,11 @@ p.context{
             padding: 20px;
             position: relative;
             background-color: white;
+            &.active{
+              h4{
+                color: $blue;
+              }
+            }
         }
 
             .timeline > li > .timeline-panel:before {
@@ -376,6 +384,11 @@ p.context{
 
 .timeline-badge.active {
     background-color: $blue !important;
+}
+
+.timeline-badge.transparent {
+    background-color: transparent !important;
+    margin-top: 70px;
 }
 
 .timeline-title {
