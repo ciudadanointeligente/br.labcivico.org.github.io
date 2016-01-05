@@ -21,9 +21,9 @@
         <!-- <li><a href="{{ site.baseurl }}/#proyectos">Proyectos</a></li> -->
         <li class="dropdown"><a href="{{ site.baseurl }}/proyectos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/hackeando-al-machismo.html">Hackeando al machismo</a></li>
-            <li><a href="{{ site.baseurl }}/reciveci.html">Reciveci</a></li>
-            <li><a href="#">Perú</a></li>
+            {% for card in site.projectcards %}
+              <li><a href="{{ site.baseurl }}{{card.permalink}}">{{card.title}}</a></li>
+            {% endfor %}
           </ul> </li>-->
         <li><a href="{{ site.baseurl }}/sumate.html">Súmate</a></li>
         <li class="redes">

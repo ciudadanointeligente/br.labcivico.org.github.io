@@ -10,7 +10,7 @@ analytics: 'UA-41822715-8'
 markdown: kramdown
 
 collections:
-  projectscards:
+  projectcards:
     output: true
   team:
     output: true

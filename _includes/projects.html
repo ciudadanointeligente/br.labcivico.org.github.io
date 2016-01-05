@@ -5,18 +5,8 @@
       <p>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas</p>
     </div>
     <div class="row">
-      {% for card in site.projectscards %}
-        <div class="col-md-4">
-            <div class="panel panel-default">
-              <h4 class="text-center">{{card.title}}</h4>
-              <img src="{{card.image}}" class="cards-image"></img>
-              <p><span>País</span> {{card.country}}</p>
-              <p><span>Tema</span> {{card.theme}}</p>
-              <p><span>Fechas</span> {{card.date}}</p>
-              <p>{{card.content}}</p>
-              <a class="btn btn-info center-block" href="#" role="button"><span>Ir al proyecto</span></a>
-            </div>
-        </div>
+      {% for card in site.projectcards %}
+        {% include projectcards.html %}
       {% endfor %}
 
     </div>    
