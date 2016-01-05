@@ -101,7 +101,7 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 section {
-    padding: 70px 0 100px;
+    padding: 70px 0 75px;
 }
 
 li.redes {
@@ -272,6 +272,10 @@ p.context{
 }
 
 /*CAROUSEL*/
+.carousel{
+  min-height: 230px;
+}
+
 .carousel-control.left{
   background-image: none;
 }
