@@ -7,10 +7,10 @@
     <div class="row">
         {% for card in site.projectcards %}
         <div class="col-md-4">
-            <div class="panel panel-default">
+            <div class="panel panel-default card">
               <h4 class="text-center">{{card.title}}</h4>
               <img src="{{card.image}}" class="cards-image"></img>
-              {% include projectcards.html %}
+              <div class="tarjeta">{% include projectcards.html %}</div>
               <a class="btn btn-info center-block" href="{{card.permalink}}" role="button"><span>Ir al proyecto</span></a>
             </div>
         </div>

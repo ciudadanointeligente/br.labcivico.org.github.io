@@ -251,12 +251,17 @@ h5{
 }
 
 /*PANELS*/
+.tarjeta{
+  min-height: 230px;
+}
+
 .panel{
   color: $grey;
   padding: 15px;
   border: none;
   border-radius: 0;
 }
+
 
 /*BUTTONS*/
 .btn-info {
@@ -558,6 +563,13 @@ label{
 }
 
 /*MEDIA-QUERIS*/
+
+@media (max-width: 1199px) {
+  .tarjeta{
+    min-height: 262px;
+  }
+}
+
 @media (max-width: 1000px) {
 
   .jumbotron .h1, .jumbotron h1 {
@@ -576,6 +588,12 @@ label{
     display: none;
   }
 
+}
+
+@media (max-width: 991px) {
+  .tarjeta{
+    min-height: auto;
+  }
 }
 
 @media (max-width: 800px) {
