@@ -3,9 +3,9 @@ layout: card
 title: Hackeando el machismo
 image: ../img/01.jpg
 country: Bolivia
-theme: Publicidad sexista
-date: Marzo a septiembre 2014
+theme: Violena de género
+date: Marzo - Septiembre 2015
 permalink: /hackeando-al-machismo.html
 ---
 
-Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.
+Este proyecto busca visibilizar el impacto que tiene el machismo, el sexismo y la violencia de género. A través del uso de las redes sociales, alianzas con medios de comunicación y eventos públicos, Hackeando el Machismo busca educar en estas materias. 

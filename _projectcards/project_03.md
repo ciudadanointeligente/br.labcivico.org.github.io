@@ -1,10 +1,10 @@
 ---
 layout: card
-title: Vota Inteligente
+title: Sin Nombre
 image: ../img/01.jpg
 country: Perú
-theme: Elecciones presidenciales
-date: Marzo a septiembre 2014
+theme: Transparencia
+date: Noviembre 2015
 ---
 
-Abordamos problemáticas sociales relevantes, comenzando con un análisis de contexto que nos permita comprender los principales temas de interés público, que a su vez sean de interés individual o profesional de los miembros del Lab.
+En este Lab Cívico se trabajó en los aspectos estratégicos y acciones de coordinación conjunta para impulsar una cultura de transparencia para las próximas elecciones generales que se realizarán este 2016 en Perú. 
