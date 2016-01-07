@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Sin Nombre
+title: Transparencia electoral
 image: ../img/01.jpg
 country: Perú
 theme: Transparencia
