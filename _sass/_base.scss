@@ -178,18 +178,24 @@ a .fa-chevron-down:hover {
 
 .container{
     background-color: transparent;
- }
+}
+
+.container-photo{
+    height: 400px;
+    overflow: hidden;
+    padding: 0;
+}
 
  .container-white{
     background-color:white;
- }
+}
 
  .container-grey{
     background-color:$grey-light;
     h3{
       color: $grey;
     }
- }
+}
 
  .container-yellow{
     background-color:$yellow;
@@ -213,11 +219,11 @@ a .fa-chevron-down:hover {
       background-position-y:0px;
       min-height: 450px;
     }
- }
+}
 
  .container-magenta{
     background-color:$orange;
- }
+}
 
 /*HEADINGS*/
 h1{
