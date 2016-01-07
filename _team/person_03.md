@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Nombrelargo Apellidolargo
+name: Valentina Barahona
 occupation: Ocupación profesión
-photo: ../img/marcelo.png
+photo: ../img/valentina.png
 ---

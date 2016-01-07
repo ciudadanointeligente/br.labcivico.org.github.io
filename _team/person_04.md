@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Nombrelargo Apellidolargo
+name: Lissett García
 occupation: Ocupación profesión
-photo: ../img/marcelo.png
+photo: ../img/lissett.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Nombrelargo Apellidolargo
+name: Laura Encalada
 occupation: Ocupación profesión
-photo: ../img/marcelo.png
+photo: ../img/laura.png
 ---
