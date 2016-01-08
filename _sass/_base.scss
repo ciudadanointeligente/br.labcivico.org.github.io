@@ -292,6 +292,22 @@ h5{
     background-color: $yellow;
 }
 
+.btn-warning {
+  background-color: $yellow;
+  border: none;
+}
+.btn-warning:hover{
+    background-color: $red;
+}
+
+.btn-danger {
+  background-color: $red;
+  border: none;
+}
+.btn-danger:hover{
+    background-color: $blue;
+}
+
 /*IMAGES*/
 .cards-image{
   width: 100%;
