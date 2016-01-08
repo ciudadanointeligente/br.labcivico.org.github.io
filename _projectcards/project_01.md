@@ -12,15 +12,22 @@ photo: ../img/01.jpg
 state01: hf
 state02: hg
 state03: hg
-img01: hg
-img02: hg
-img03: hg
-img04: hg
-img05: hg
-img06: hg
-img07: hg
-img08: hg
-img09: hg
+img01: ../img/pro01-01.jpg
+img02: ../img/pro01-02.jpg
+img03: ../img/pro01-03.jpg
+img04: ../img/pro01-01.jpg
+img05: ../img/pro01-02.jpg
+img06: ../img/pro01-03.jpg
+img07: ../img/pro01-01.jpg
+thumb01: ../img/thumbnails/pro01-01.png
+thumb02: ../img/thumbnails/pro01-02.png
+thumb03: ../img/thumbnails/pro01-03.png
+thumb04: ../img/thumbnails/pro01-01.png
+thumb05: ../img/thumbnails/pro01-02.png
+thumb06: ../img/thumbnails/pro01-03.png
+thumb07: ../img/thumbnails/pro01-01.png
+
+
 
 ---
 
