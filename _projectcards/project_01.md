@@ -26,8 +26,21 @@ thumb04: ../img/thumbnails/pro01-01.png
 thumb05: ../img/thumbnails/pro01-02.png
 thumb06: ../img/thumbnails/pro01-03.png
 thumb07: ../img/thumbnails/pro01-01.png
-
-
+person01: Nombrelargo Apellidolargo
+person02: Nombrelargo Apellidolargo
+person03: Nombrelargo Apellidolargo
+person04: Nombrelargo Apellidolargo
+person05: Nombrelargo Apellidolargo
+person06: Nombrelargo Apellidolargo
+person07: Nombrelargo Apellidolargo
+person08: Nombrelargo Apellidolargo
+person09: Nombrelargo Apellidolargo
+person10: Nombrelargo Apellidolargo
+person11: Nombrelargo Apellidolargo
+person12: Nombrelargo Apellidolargo
+person13: Nombrelargo Apellidolargo
+person14: Nombrelargo Apellidolargo
+person15: Nombrelargo Apellidolargo
 
 ---
 
