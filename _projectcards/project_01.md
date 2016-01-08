@@ -7,6 +7,7 @@ theme: Violencia de género
 date: Marzo - Septiembre 2015
 permalink: /hackeando-al-machismo.html
 photobg: ../img/01.jpg
+intro: 
 photo: ../img/01.jpg
 state01: hf
 state02: hg
