@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign card = page %}
-<div class="container-yellow header">
+<section class="container-yellow header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
@@ -16,9 +16,9 @@ layout: default
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container-blue">
+<section class="container-blue">
 	<div class="container">
 		<div class="row">			
 			<div class="col-md-2">
@@ -30,13 +30,13 @@ layout: default
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container-photo">
+<section class="container-photo">
     <img src="{{card.image}}"></img>
-</div>
+</section>
 
-<div class="container-yellow">
+<section class="container-yellow">
 	<div class="container">
 		<div class="row">			
 			<div class="col-md-12">
@@ -89,9 +89,9 @@ layout: default
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container-red">
+<section class="container-red">
 	<div class="container">
 		<div class="row">			
 			<div class="col-md-12">
@@ -132,23 +132,36 @@ layout: default
 				</div>
 
 				<div id="links">
-				    <a href="img/pro01-01.jpg" data-gallery>
-				        <img src="img/thumbnails/pro01-01.png">
+				    <a href="{{card.img01}}" data-gallery>
+				        <img src="{{card.thumb01}}" class="galeria">
 				    </a>
-				    <a href="img/pro01-02.jpg" data-gallery>
-				        <img src="img/thumbnails/pro01-02.png">
+				    <a href="{{card.img02}}" data-gallery>
+				        <img src="{{card.thumb02}}" class="galeria">
 				    </a>
-				    <a href="img/pro01-03.jpg" data-gallery>
-				        <img src="img/thumbnails/pro01-03.png">
+				    <a href="{{card.img03}}" data-gallery>
+				        <img src="{{card.thumb03}}" class="galeria">
+				    </a>
+				    <a href="{{card.img04}}" data-gallery>
+				        <img src="{{card.thumb04}}" class="galeria">
+				    </a>
+				    <a href="{{card.img05}}" data-gallery>
+				        <img src="{{card.thumb05}}" class="galeria">
+				    </a>
+				    <a href="{{card.img06}}" data-gallery>
+				        <img src="{{card.thumb06}}" class="galeria">
+				    </a>
+				    <a href="{{card.img07}}" data-gallery>
+				        <img src="{{card.thumb07}}" class="galeria">
 				    </a>
 				</div>
 
 
 			</div>
 		</div>
-	</div></div>
+	</div>
+</section>
 
-<div class="container-blue">
+<section class="container-blue">
 	<div class="container">
 		<div class="row">			
 			<div class="col-md-12">
@@ -156,7 +169,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
