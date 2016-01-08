@@ -343,9 +343,10 @@ p.context{
 /*TIMELINE*/
 .timeline {
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 20px 0 0;
     position: relative;
     color: $grey;
+    margin-bottom: 80px;
 }
 
     .timeline:before {
@@ -468,11 +469,10 @@ p.context{
 
 .timeline-badge.transparent {
     background-color: transparent !important;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 .timeline-title {
-    margin-top: 0;
     color: inherit;
 }
 

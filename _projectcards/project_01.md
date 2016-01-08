@@ -9,9 +9,9 @@ permalink: /hackeando-al-machismo.html
 photobg: ../img/01.jpg
 intro: 
 photo: ../img/01.jpg
-state01: hf
-state02: hg
-state03: hg
+state01: Etapa 1
+state02: Etapa 2
+state03: Etapa 3
 img01: ../img/pro01-01.jpg
 img02: ../img/pro01-02.jpg
 img03: ../img/pro01-03.jpg
