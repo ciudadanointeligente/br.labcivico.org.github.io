@@ -123,7 +123,7 @@ a .fa-chevron-down {
 }
 
 a .fa-chevron-down:hover {
-    background-color:$orange;
+    background-color:$red;
 }
 
 .jumbotron{
@@ -207,6 +207,11 @@ a .fa-chevron-down:hover {
         background-position-y: -10px;
         min-height: 410px;
     }
+    a{
+      font-weight: 700;
+            color: white;
+
+    }
 }
 
 .container-blue{
@@ -220,12 +225,18 @@ a .fa-chevron-down:hover {
       min-height: 450px;
     }
     a{
-      color: $blue-dark;
+      font-weight: 700;
+            color: white;
+
     }
 }
 
- .container-magenta{
-    background-color:$orange;
+ .container-red{
+    background-color:$red;
+    a{
+      font-weight: 700;
+      color: white;
+    }
 }
 
 /*HEADINGS*/
