@@ -210,14 +210,14 @@ a .fa-chevron-down:hover {
       background: url("../img/latam2.png");
       background-repeat: no-repeat;
       background-blend-mode: multiply;
-      background-position: 95% -2%;
+      background-position: 25% -2%;
       background-color:$yellow;
     }
     &.ecuador {
       background: url("../img/ecuador.png");
       background-repeat: no-repeat;
       background-blend-mode: multiply;
-      background-position: 95% 230%;
+      background-position: 100% 230%;
       background-color:$yellow;
     }
     a{
@@ -229,18 +229,39 @@ a .fa-chevron-down:hover {
 
 .container-blue{
     background-color:$blue;
-    &.join{
+    &.sumate{
       background-image: url("../img/sumate.png");
       background-repeat: no-repeat;
       background-blend-mode: multiply;
-      background-position: 94% 160%;
+      background-position: 61% 0%;
+      background-color:$blue;
+    }
+    &.sumate2 {
+      background: url("../img/sumate2.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 30% -2%;
       background-color:$blue;
     }
     &.peru {
       background: url("../img/peru.png");
       background-repeat: no-repeat;
       background-blend-mode: multiply;
+      background-position: 3% 140%;
+      background-color:$blue;
+    }
+    &.introproyecto {
+      background: url("../img/introproyecto.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
       background-position: 8% 140%;
+      background-color:$blue;
+    }
+    &.participantes {
+      background: url("../img/participantes.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 24% 3%;
       background-color:$blue;
     }
     a{
@@ -255,7 +276,7 @@ a .fa-chevron-down:hover {
     background: url("../img/bolivia.png");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-position: 5% 132%;
+    background-position: 3% 132%;
     background-color:$red;
     }
     a{
