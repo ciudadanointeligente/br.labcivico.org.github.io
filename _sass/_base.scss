@@ -199,40 +199,65 @@ a .fa-chevron-down:hover {
 
  .container-yellow{
     background-color:$yellow;
-    &.map {
-        background-image: url("../img/mapa.png");
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;
-        background-position-x:90%;
-        background-position-y: -10px;
-        min-height: 410px;
+    &.projects {
+      background: url("../img/latam.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 60% -2%;
+      background-color:$yellow;
+    }
+    &.projects2 {
+      background: url("../img/latam2.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 95% -2%;
+      background-color:$yellow;
+    }
+    &.ecuador {
+      background: url("../img/ecuador.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 95% 230%;
+      background-color:$yellow;
     }
     a{
       font-weight: 700;
-            color: white;
+      color: white;
 
     }
 }
 
 .container-blue{
     background-color:$blue;
-    &.sumate{
+    &.join{
       background-image: url("../img/sumate.png");
       background-repeat: no-repeat;
       background-blend-mode: multiply;
-      background-position-x:-20px;
-      background-position-y:0px;
-      min-height: 450px;
+      background-position: 94% 160%;
+      background-color:$blue;
+    }
+    &.peru {
+      background: url("../img/peru.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 8% 140%;
+      background-color:$blue;
     }
     a{
       font-weight: 700;
-            color: white;
-
+      color: white;
     }
 }
 
  .container-red{
     background-color:$red;
+  &.bolivia {
+    background: url("../img/bolivia.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 5% 132%;
+    background-color:$red;
+    }
     a{
       font-weight: 700;
       color: white;
