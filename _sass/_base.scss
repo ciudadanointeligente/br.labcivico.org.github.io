@@ -181,9 +181,11 @@ a .fa-chevron-down:hover {
 }
 
 .container-photo{
-    height: 400px;
-    overflow: hidden;
-    padding: 0;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
 
  .container-white{

@@ -8,7 +8,7 @@ date: Agosto - Noviembre 2015
 permalink: /reciveci-hola.html
 photobg: ../img/ecuador-bg.jpg
 intro: 
-photo: ../img/01.jpg
+photo: ../img/ecuador-intro.jpg
 state01: hf
 state02: hg
 state03: hg
