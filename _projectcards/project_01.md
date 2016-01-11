@@ -1,7 +1,7 @@
 ---
 layout: card
 title: Hackeando al machismo
-image: ../img/01.jpg
+image: ../img/bolivia-min.jpg
 country: Bolivia
 theme: Violencia de género
 date: Marzo - Septiembre 2015

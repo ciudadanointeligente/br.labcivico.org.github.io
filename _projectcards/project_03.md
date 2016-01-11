@@ -1,9 +1,9 @@
 ---
 layout: card
 title: Transparencia electoral
-image: ../img/01.jpg
+image: ../img/peru-min.jpg
 country: Perú
-theme: Transparencia
+theme: Transparencia electoral
 date: Noviembre 2015
 permalink: /transparencia-electoral.html
 photobg: ../img/01.jpg

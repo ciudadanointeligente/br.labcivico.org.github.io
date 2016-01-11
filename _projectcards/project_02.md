@@ -1,12 +1,12 @@
 ---
 layout: card
 title: Reciveci
-image: ../img/01.jpg
+image: ../img/ecuador-min.jpg
 country: Ecuador
 theme: Incentivo al reciclaje
 date: Agosto - Noviembre 2015
 permalink: /reciveci-hola.html
-photobg: ../img/01.jpg
+photobg: ../img/ecuador-bg.jpg
 intro: 
 photo: ../img/01.jpg
 state01: hf
