@@ -270,7 +270,7 @@ a .fa-chevron-down:hover {
     }
 }
 
- .container-red{
+.container-red{
     background-color:$red;
   &.bolivia {
     background: url("../img/bolivia.png");
@@ -283,6 +283,57 @@ a .fa-chevron-down:hover {
       font-weight: 700;
       color: white;
     }
+}
+
+.col-md-12{
+  &.method01{
+    background: url("../img/method01.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.method02{
+    background: url("../img/method02.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.method03{
+    background: url("../img/method03.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.method04{
+    background: url("../img/method04.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.method05{
+    background: url("../img/method05.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.method06{
+    background: url("../img/method06.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
 }
 
 /*HEADINGS*/
