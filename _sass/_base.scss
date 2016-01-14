@@ -134,7 +134,7 @@ a .fa-chevron-down:hover {
     padding-bottom: 0px;
 }
 
-.jumbotron-intro {
+.jumbo-intro {
     position: absolute;
     width: 100%;
     padding: 0 15px;
@@ -144,7 +144,16 @@ a .fa-chevron-down:hover {
     color: #FFF;
 }
 
-.carousel-jumbo:before {
+.jumbo-photo{
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+
+.jumbo-photo:before {
     top: 0;
     position: absolute;
     display: block;
@@ -167,6 +176,37 @@ a .fa-chevron-down:hover {
 
 /*CONTAINERS*/
 .header{
+  padding-bottom: 50px;
+  margin-top: 70px;
+  &.photo{
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  h1{
+    font-size: 50px;
+    margin-top: 70px;
+  }
+}
+
+.header-intro {
+    position: absolute;
+    width: 100%;
+    padding: 0 15px;
+    z-index: 50;
+    top: 120px;
+    color: #FFF;
+}
+
+.container{
+    background-color: transparent;
+}
+
+.container-header{
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
   margin-top: 70px;
   padding-top: 70px;
   padding-bottom: 50px;
@@ -176,9 +216,17 @@ a .fa-chevron-down:hover {
   }
 }
 
-.container{
-    background-color: transparent;
+.container-header:before {
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 40;
+    background: url(../img/bg.png) repeat;
 }
+
 
 .container-photo{
   height: 400px;
@@ -186,6 +234,36 @@ a .fa-chevron-down:hover {
   background-size: cover;
   background-position: center center;
   position: relative;
+}
+
+.container-photo:before {
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 40;
+    background: url(../img/bg.png) repeat;
+}
+
+.container-photo2{
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.container-photo2:before {
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 40;
+    background: url(../img/bg.png) repeat;
 }
 
  .container-white{

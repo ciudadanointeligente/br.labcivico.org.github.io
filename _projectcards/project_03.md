@@ -6,9 +6,8 @@ country: Perú
 theme: Transparencia electoral
 date: Noviembre 2015
 permalink: /transparencia-electoral.html
-photobg: ../img/01.jpg
+photo: ../img/peru-01.jpg
 intro: 
-photo: ../img/01.jpg
 state01: hf
 state02: hg
 state03: hg
