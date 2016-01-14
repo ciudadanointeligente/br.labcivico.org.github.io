@@ -11,20 +11,20 @@ intro:
 state01: hf
 state02: hg
 state03: hg
-img01: ../img/pro01-01.jpg
-img02: ../img/pro01-02.jpg
-img03: ../img/pro01-03.jpg
-img04: ../img/pro01-01.jpg
-img05: ../img/pro01-02.jpg
-img06: ../img/pro01-03.jpg
-img07: ../img/pro01-01.jpg
-thumb01: ../img/thumbnails/pro01-01.png
-thumb02: ../img/thumbnails/pro01-02.png
-thumb03: ../img/thumbnails/pro01-03.png
-thumb04: ../img/thumbnails/pro01-01.png
-thumb05: ../img/thumbnails/pro01-02.png
-thumb06: ../img/thumbnails/pro01-03.png
-thumb07: ../img/thumbnails/pro01-01.png
+img01: ../img/peru-01.jpg
+img01: ../img/peru-02.jpg
+img01: ../img/peru-03.jpg
+img01: ../img/peru-04.jpg
+img01: ../img/peru-05.jpg
+img01: ../img/peru-06.jpg
+img01: ../img/peru-07.jpg
+thumb07: ../img/thumbnails/peru-01.jpg
+thumb07: ../img/thumbnails/peru-02.jpg
+thumb07: ../img/thumbnails/peru-03.jpg
+thumb07: ../img/thumbnails/peru-04.jpg
+thumb07: ../img/thumbnails/peru-05.jpg
+thumb07: ../img/thumbnails/peru-06.jpg
+thumb07: ../img/thumbnails/peru-07.jpg
 ---
 
 En este Lab Cívico se trabajó en los aspectos estratégicos y acciones de coordinación conjunta para impulsar una cultura de transparencia para las próximas elecciones generales que se realizarán este 2016 en Perú. 

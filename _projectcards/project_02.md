@@ -11,20 +11,20 @@ intro:
 state01: hf
 state02: hg
 state03: hg
-img01: ../img/pro01-01.jpg
-img02: ../img/pro01-02.jpg
-img03: ../img/pro01-03.jpg
-img04: ../img/pro01-01.jpg
-img05: ../img/pro01-02.jpg
-img06: ../img/pro01-03.jpg
-img07: ../img/pro01-01.jpg
-thumb01: ../img/thumbnails/pro01-01.png
-thumb02: ../img/thumbnails/pro01-02.png
-thumb03: ../img/thumbnails/pro01-03.png
-thumb04: ../img/thumbnails/pro01-01.png
-thumb05: ../img/thumbnails/pro01-02.png
-thumb06: ../img/thumbnails/pro01-03.png
-thumb07: ../img/thumbnails/pro01-01.png
+img01: ../img/ecuador-01.jpg
+img01: ../img/ecuador-02.jpg
+img01: ../img/ecuador-03.jpg
+img01: ../img/ecuador-04.jpg
+img01: ../img/ecuador-05.jpg
+img01: ../img/ecuador-06.jpg
+img01: ../img/ecuador-07.jpg
+thumb07: ../img/thumbnails/ecuador-01.jpg
+thumb07: ../img/thumbnails/ecuador-02.jpg
+thumb07: ../img/thumbnails/ecuador-03.jpg
+thumb07: ../img/thumbnails/ecuador-04.jpg
+thumb07: ../img/thumbnails/ecuador-05.jpg
+thumb07: ../img/thumbnails/ecuador-06.jpg
+thumb07: ../img/thumbnails/ecuador-07.jpg
 ---
 
 Este proyecto busca generar una cultura de reciclaje por medio de un vínculo humano entre los recicladores y la ciudadanía, que estimule el acto de reciclar en los barrios de la ciudad de Quito.

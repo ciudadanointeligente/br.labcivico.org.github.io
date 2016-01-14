@@ -11,20 +11,20 @@ intro:
 state01: Etapa 1
 state02: Etapa 2
 state03: Etapa 3
-img01: ../img/pro01-01.jpg
-img02: ../img/pro01-02.jpg
-img03: ../img/pro01-03.jpg
-img04: ../img/pro01-01.jpg
-img05: ../img/pro01-02.jpg
-img06: ../img/pro01-03.jpg
-img07: ../img/pro01-01.jpg
-thumb01: ../img/thumbnails/pro01-01.png
-thumb02: ../img/thumbnails/pro01-02.png
-thumb03: ../img/thumbnails/pro01-03.png
-thumb04: ../img/thumbnails/pro01-01.png
-thumb05: ../img/thumbnails/pro01-02.png
-thumb06: ../img/thumbnails/pro01-03.png
-thumb07: ../img/thumbnails/pro01-01.png
+img01: ../img/bolivia-01.jpg
+img01: ../img/bolivia-02.jpg
+img01: ../img/bolivia-03.jpg
+img01: ../img/bolivia-04.jpg
+img01: ../img/bolivia-05.jpg
+img01: ../img/bolivia-06.jpg
+img01: ../img/bolivia-07.jpg
+thumb07: ../img/thumbnails/bolivia-01.jpg
+thumb07: ../img/thumbnails/bolivia-02.jpg
+thumb07: ../img/thumbnails/bolivia-03.jpg
+thumb07: ../img/thumbnails/bolivia-04.jpg
+thumb07: ../img/thumbnails/bolivia-05.jpg
+thumb07: ../img/thumbnails/bolivia-06.jpg
+thumb07: ../img/thumbnails/bolivia-07.jpg
 person01: Nombrelargo Apellidolargo
 person02: Nombrelargo Apellidolargo
 person03: Nombrelargo Apellidolargo
