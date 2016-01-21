@@ -279,6 +279,13 @@ a .fa-chevron-down:hover {
 
  .container-yellow{
     background-color:$yellow;
+    &.que-es {
+      background: url("../img/que-es.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 90% -2%;
+      background-color:$yellow;
+    }
     &.projects {
       background: url("../img/latam.png");
       background-repeat: no-repeat;
@@ -309,20 +316,6 @@ a .fa-chevron-down:hover {
 
 .container-blue{
     background-color:$blue;
-    &.sumate{
-      background-image: url("../img/sumate.png");
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-position: 61% 0%;
-      background-color:$blue;
-    }
-    &.sumate2 {
-      background: url("../img/sumate2.png");
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-position: 30% -2%;
-      background-color:$blue;
-    }
     &.peru {
       background: url("../img/peru.png");
       background-repeat: no-repeat;
@@ -411,6 +404,30 @@ a .fa-chevron-down:hover {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position: 10% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.sum01{
+    background: url("../img/sum01.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.sum02{
+    background: url("../img/sum02.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
+    background-color:$blue;
+    min-height: 120px;
+  }
+  &.sum03{
+    background: url("../img/sum03.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 7% 70%;
     background-color:$blue;
     min-height: 120px;
   }
