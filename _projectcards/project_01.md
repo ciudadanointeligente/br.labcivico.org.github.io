@@ -12,18 +12,18 @@ state01: Etapa 1
 state02: Etapa 2
 state03: Etapa 3
 img01: ../img/bolivia-01.jpg
-img01: ../img/bolivia-02.jpg
-img01: ../img/bolivia-03.jpg
-img01: ../img/bolivia-04.jpg
-img01: ../img/bolivia-05.jpg
-img01: ../img/bolivia-06.jpg
-img01: ../img/bolivia-07.jpg
-thumb07: ../img/thumbnails/bolivia-01.jpg
-thumb07: ../img/thumbnails/bolivia-02.jpg
-thumb07: ../img/thumbnails/bolivia-03.jpg
-thumb07: ../img/thumbnails/bolivia-04.jpg
-thumb07: ../img/thumbnails/bolivia-05.jpg
-thumb07: ../img/thumbnails/bolivia-06.jpg
+img02: ../img/bolivia-02.jpg
+img03: ../img/bolivia-03.jpg
+img04: ../img/bolivia-04.jpg
+img05: ../img/bolivia-05.jpg
+img06: ../img/bolivia-06.jpg
+img07: ../img/bolivia-07.jpg
+thumb01: ../img/thumbnails/bolivia-01.jpg
+thumb02: ../img/thumbnails/bolivia-02.jpg
+thumb03: ../img/thumbnails/bolivia-03.jpg
+thumb04: ../img/thumbnails/bolivia-04.jpg
+thumb05: ../img/thumbnails/bolivia-05.jpg
+thumb06: ../img/thumbnails/bolivia-06.jpg
 thumb07: ../img/thumbnails/bolivia-07.jpg
 person01: Nombrelargo Apellidolargo
 person02: Nombrelargo Apellidolargo

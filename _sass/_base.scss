@@ -316,6 +316,13 @@ a .fa-chevron-down:hover {
 
 .container-blue{
     background-color:$blue;
+    &.experiencia {
+      background: url("../img/experiencia.png");
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-position: 90% -2%;
+      background-color:$blue;
+    }
     &.peru {
       background: url("../img/peru.png");
       background-repeat: no-repeat;
