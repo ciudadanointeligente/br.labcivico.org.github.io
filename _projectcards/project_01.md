@@ -6,7 +6,7 @@ country: Bolivia
 theme: Violencia de género
 date: Marzo - Septiembre 2015
 permalink: /hackeando-al-machismo.html
-photo: ../img/bolivia-01.jpg
+photo: ../img/bolivia-bg.jpg
 intro: 
 state01: Etapa 1
 state02: Etapa 2

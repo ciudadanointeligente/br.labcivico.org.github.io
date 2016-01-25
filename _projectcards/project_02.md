@@ -6,7 +6,7 @@ country: Ecuador
 theme: Incentivo al reciclaje
 date: Agosto - Noviembre 2015
 permalink: /reciveci-hola.html
-photo: ../img/ecuador-01.jpg
+photo: ../img/ecuador-bg.jpg
 intro: 
 state01: hf
 state02: hg
