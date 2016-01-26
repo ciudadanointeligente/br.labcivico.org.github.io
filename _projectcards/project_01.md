@@ -40,6 +40,9 @@ person12: Nombrelargo Apellidolargo
 person13: Nombrelargo Apellidolargo
 person14: Nombrelargo Apellidolargo
 person15: Nombrelargo Apellidolargo
+etapas: [
+	{"nombre": perrito chiquitito, "destacado": true}, 
+	{"nombre": gatito chiquitito, "destacado": false}]
 
 ---
 

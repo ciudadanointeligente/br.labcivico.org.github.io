@@ -70,6 +70,23 @@ layout: default
 				<div class="container">
 				    </div>
 				    <ul class="timeline">
+
+				    	{% for etapa in card.etapas %}
+				    	{% capture parimpar %}{% cycle 'impar', 'par' %}{% endcapture %}
+						<li class = "{% if parimpar == 'par' %}timeline-inverted{% endif %}">
+				          <div class="timeline-badge  {% if etapa.destacado %}active{% else %}inactive{% endif %}">{% if etapa.destacado %}<i class="fa fa-map-marker fa-lg"></i>{% else %}{% endif %}</div>
+				          <div class="timeline-panel {% if etapa.destacado %}active{% endif %}">
+				            <div class="timeline-heading">
+				              <h4 class="timeline-title">{{etapa.nombre}}</h4>
+				            </div>
+				            <div class="timeline-body">
+				              <p>{{etapa.nombre}}</p>
+				            </div>
+				          </div>
+				        </li>
+
+						{% endfor %}
+
 				        <li>
 				          <div class="timeline-badge inactive"></div>
 				          <div class="timeline-panel">
@@ -82,7 +99,7 @@ layout: default
 				          </div>
 				        </li>
 				        <li class="timeline-inverted">
-				          <div class="timeline-badge active"><i class="fa fa-map-marker fa-lg"></i></div>
+				          <div class="timeline-badge active"></div>
 				          <div class="timeline-panel active">
 				            <div class="timeline-heading">
 				              <h4 class="timeline-title">{{card.state02}}</h4>
@@ -194,84 +211,97 @@ layout: default
 			</div>
 		</div>
 		<div class="row">			
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person01}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person02}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person03}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person04}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person05}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person06}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person07}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person08}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person09}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person10}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person11}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person12}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person13}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person14}}</span>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 person">
 				<div class="panel panel-default">
 					<span>{{card.person15}}</span>
 				</div>
 			</div>
-
 		</div>
 	</div>
+
+{% for etapa in card.etapas %}
+	{{ etapa.nombre }} 
+
+
+
+	{% if etapa.destacado %}
+	destacada
+	{% else %}
+	etapa no destacada
+	{% endif %}
+
+{% endfor %}
+
 </section>
 
 
