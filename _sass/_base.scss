@@ -811,6 +811,10 @@ label{
 /*MEDIA-QUERIS*/
 
 @media (max-width: 1199px) {
+  .carousel{
+    min-height: 260px;
+  }
+
   .tarjeta{
     min-height: 262px;
   }
@@ -856,6 +860,20 @@ label{
 
 }
 
+@media (max-width: 800px) {
+  .carousel{
+    min-height: 290px;
+  }
+}
+
+@media (max-width: 701px) {
+  .container-photo2{
+    min-height: 600px;
+  }
+}
+
+
+
 @media (max-width: 500px) {
   .jumbotron{
     height: 430px;
@@ -871,6 +889,13 @@ label{
 
   a .fa-chevron-down {
       display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .carousel{
+    height: 370px;
   }
 
 }
