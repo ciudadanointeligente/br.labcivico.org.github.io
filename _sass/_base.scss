@@ -175,6 +175,16 @@ a .fa-chevron-down:hover {
 }
 
 /*CONTAINERS*/
+.col-md-2, .col-md-3, .col-md-4{
+  margin-bottom: 50px;
+}
+
+.col-md-3{
+  &.person{
+    margin-bottom: 0;
+  }
+}
+
 .header{
   padding-bottom: 50px;
   margin-top: 70px;
