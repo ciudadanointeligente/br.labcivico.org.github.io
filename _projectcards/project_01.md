@@ -7,10 +7,11 @@ theme: Violencia de género
 date: Marzo - Septiembre 2015
 permalink: /hackeando-al-machismo.html
 photo: ../img/bolivia-bg.jpg
-intro: 
-state01: Etapa 1
-state02: Etapa 2
-state03: Etapa 3
+intro:
+etapas: [
+	{"nombre": Etapa 1, "bajada": perrito chiquitito, "destacado": false}, 
+	{"nombre": Etapa 2, "bajada": perrito chiquitito, "destacado": false},
+	{"nombre": Etapa 3, "bajada": perrito chiquitito, "destacado": true}] 
 img01: ../img/bolivia-01.jpg
 img02: ../img/bolivia-02.jpg
 img03: ../img/bolivia-03.jpg
@@ -25,24 +26,20 @@ thumb04: ../img/thumbnails/bolivia-04.jpg
 thumb05: ../img/thumbnails/bolivia-05.jpg
 thumb06: ../img/thumbnails/bolivia-06.jpg
 thumb07: ../img/thumbnails/bolivia-07.jpg
-person01: Nombrelargo Apellidolargo
-person02: Nombrelargo Apellidolargo
-person03: Nombrelargo Apellidolargo
-person04: Nombrelargo Apellidolargo
-person05: Nombrelargo Apellidolargo
-person06: Nombrelargo Apellidolargo
-person07: Nombrelargo Apellidolargo
-person08: Nombrelargo Apellidolargo
-person09: Nombrelargo Apellidolargo
-person10: Nombrelargo Apellidolargo
-person11: Nombrelargo Apellidolargo
-person12: Nombrelargo Apellidolargo
-person13: Nombrelargo Apellidolargo
-person14: Nombrelargo Apellidolargo
-person15: Nombrelargo Apellidolargo
-etapas: [
-	{"nombre": perrito chiquitito, "destacado": true}, 
-	{"nombre": gatito chiquitito, "destacado": false}]
+personas: [
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo},
+	{"nombre": Nombrelargo Apellidolargo}]
+
+
 
 ---
 
