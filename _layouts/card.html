@@ -137,32 +137,15 @@ layout: default
 				        </div>
 				    </div>
 				</div>
+				
 
-				<div id="links">
-				    <a href="{{card.img01}}" data-gallery>
-				        <img src="{{card.thumb01}}" class="galeria">
+				{% for photo in card.imagenes%}
+				<span>
+				    <a href="{{photo.imagen}}" data-gallery>
+				        <img src="{{photo.thumb}}" class="galeria"> 
 				    </a>
-				    <a href="{{card.img02}}" data-gallery>
-				        <img src="{{card.thumb02}}" class="galeria">
-				    </a>
-				    <a href="{{card.img03}}" data-gallery>
-				        <img src="{{card.thumb03}}" class="galeria">
-				    </a>
-				    <a href="{{card.img04}}" data-gallery>
-				        <img src="{{card.thumb04}}" class="galeria">
-				    </a>
-				    <a href="{{card.img05}}" data-gallery>
-				        <img src="{{card.thumb05}}" class="galeria">
-				    </a>
-				    <a href="{{card.img06}}" data-gallery>
-				        <img src="{{card.thumb06}}" class="galeria">
-				    </a>
-				    <a href="{{card.img07}}" data-gallery>
-				        <img src="{{card.thumb07}}" class="galeria">
-				    </a>
-				</div>
-
-
+				</span>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
