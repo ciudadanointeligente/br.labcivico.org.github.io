@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="text-center">Proyectos</h2>
     <div class="bajada text-center">
-      <p>¿Cómo lo hacemos? La metodología de los Lab Cívicos se compone básicamente de las siguientes etapas</p>
+      <p>Estos son los productos que se han desarrollado en nuestros Labs Cívicos de Bolivia, Ecuador y Perú.</p>
     </div>
     <div class="row">
         {% for card in site.projectcards %}
@@ -11,7 +11,7 @@
               <h4 class="text-center">{{card.title}}</h4>
               <img src="{{card.image}}" class="cards-image"></img>
               <div class="tarjeta">{% include projectcards.html %}</div>
-              <a class="btn btn-danger center-block" href="{{card.permalink}}" role="button" target="_blank"><span>Ir al proyecto</span></a>
+              <div class="hidden"><a class="btn btn-danger center-block" href="{{card.permalink}}" role="button" target="_blank"><span>Ir al proyecto</span></a></div>
             </div>
         </div>
         {% endfor %}
