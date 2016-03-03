@@ -1,6 +1,6 @@
 ---
 layout: person
 name: Laura Encalada
-occupation: Ocupación profesión
+occupation: Cientista político
 photo: ../img/laura.jpg
 ---

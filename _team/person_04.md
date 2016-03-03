@@ -1,6 +1,6 @@
 ---
 layout: person
 name: Lissett García
-occupation: Ocupación profesión
+occupation: Diseñadora
 photo: ../img/lissett.jpg
 ---

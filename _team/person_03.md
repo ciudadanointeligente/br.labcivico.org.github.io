@@ -1,6 +1,6 @@
 ---
 layout: person
 name: Valentina Barahona
-occupation: Ocupación profesión
+occupation: Periodista
 photo: ../img/valentina.jpg
 ---
