@@ -1,9 +1,9 @@
 ---
-number: post01
+number: post03
 layout: post
-country: Bolivia
-title:  "Colaboración, tecnología e incidencia para el cambio social. ¡Bienvenid@s a Lab Cívico!"
-date:   2015-07-20 16:42:13
+country: Ecuador
+title:  ""
+date:   2015-08-01 11:56:29
 author: Daniela Tejada
 excerpt: Muchas de las personas que siguen el trabajo de Ciudadano Inteligente conocen nuestro rol de seguimiento, activismo y fiscalización de la agenda legislativa y de los temas vinculados a transparencia y probidad en Chile, a lo que se suma lo que últimamente hemos estado haciendo como querellantes de los casos Penta-SQM. Pero lo cierto es que esa es sólo nuestra arista de incidencia en Chile, que no representa todo nuestro trabajo como fundación. 
 ---
