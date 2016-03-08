@@ -4,7 +4,7 @@ title: Transparencia electoral
 image: ../img/peru-min.jpg
 country: Perú
 theme: Transparencia electoral
-date: Noviembre 2015
+period: Noviembre 2015
 permalink: /transparencia-electoral.html
 photo: ../img/peru-bg.jpg
 intro: 

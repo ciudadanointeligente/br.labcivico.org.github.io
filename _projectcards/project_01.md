@@ -4,7 +4,7 @@ title: Hackeando al machismo
 image: ../img/bolivia-min.jpg
 country: Bolivia
 theme: Violencia de género
-date: Marzo - Septiembre 2015
+period: "Marzo - Septiembre 2015"
 permalink: /hackeando-al-machismo.html
 photo: ../img/bolivia-bg.jpg
 intro:
