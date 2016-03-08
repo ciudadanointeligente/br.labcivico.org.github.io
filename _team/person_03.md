@@ -1,7 +1,6 @@
 ---
 layout: person
-name: Nombrelargo Apellidolargo
-occupation: Ocupación profesión
-project: Hackeando el machismo
-image: //placehold.it/150x150
+name: Valentina Barahona
+occupation: Periodista
+photo: ../img/valentina.jpg
 ---

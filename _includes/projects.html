@@ -1,0 +1,21 @@
+<section class="container-yellow projects">
+  <div class="container">
+    <h2 class="text-center">Proyectos</h2>
+    <div class="bajada text-center">
+      <p>Estos son los productos que se han desarrollado en nuestros Labs Cívicos de Bolivia, Ecuador y Perú.</p>
+    </div>
+    <div class="row">
+        {% for card in site.projectcards %}
+        <div class="col-md-4">
+            <div class="panel panel-default card">
+              <h4 class="text-center">{{card.title}}</h4>
+              <img src="{{card.image}}" class="cards-image"></img>
+              <div class="tarjeta">{% include projectcards.html %}</div>
+              <div class="hidden"><a class="btn btn-danger center-block" href="{{card.permalink}}" role="button" target="_blank"><span>Ir al proyecto</span></a></div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>    
+  </div>
+</section>

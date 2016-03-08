@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<section class="container-yellow header que-es" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>¿Qué es LabCívico?</h1>
+				<p>Lab Cívico es un proyecto de <a href="http://ciudadanointeligente.org/" target="_blank">Fundación Ciudadano Inteligente</a> en el que a través de talleres presenciales y a distancia podrás aprender metodologías para alcanzar un cambio social.</p>
+				<p>¿Cómo alcanzar mayor impacto en la actualidad de mi país? ¿Cómo lograr identificar de manera correcta una problemática pública, los actores involucrados y generar un plan de trabajo en busca de una solución? Estas son algunas de las preguntas que buscamos resolver en los talleres de Lab Cívico.</p>
+				<p>En estas instancias aprenderás a definir objetivos de incidencia, trabajar en redes de colaboración interdisciplinaria, utilizar las herramientas tecnológicas como un motor para el cambio y además aprenderás a crear estrategias comunicacionales para dar a conocer tus proyectos.</p>
+				<p>Hasta el momento se han desarrollado tres versiones de Lab Cívico en Bolivia, Perú y Ecuador.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container-blue" id="about">
+	<div class="container">	
+		<h2>Esta es nuestra metodología</h2>
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method01"></div>
+				</div>
+				<h4>Contexto social</h4>
+				<p>Comenzamos con un análisis de contexto para conocer cuáles son los problemas más sensibles, si existe un área de oportunidad de incidencia en política pública o legislación, y la comunidad de actores involucrados en el tema. Con eso, construimos un punto de partida en el entorno en el que se va a trabajar.</p>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method02"></div>
+				</div>
+				<h4>Objetivos</h4>
+				<p>Luego, el grupo en conjunto acuerda las metas y objetivos que se desean alcanzar a partir de los criterios definidos en la primera etapa y se evalúan los mecanismos que se utilizarán para lograr estos propósitos.</p>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method03"></div>
+				</div>
+				<h4>Producto</h4>
+				<p>En esta etapa se define el producto que se va a desarrollar para acompañar y responder a las necesidades detectadas en la primera etapa y alcanzar las metas determinadas por el grupo. En esta etapa buscamos diseñar herramientas que impulse un cambio respecto a la situación que se desea abordar.</p>	
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method04"></div>
+				</div>
+				<h4>Tareas</h4>
+				<p>Aquí acordamos actividades para todos los actores involucrados y definimos los resultados esperados. Se plantean las tareas y las responsabilidades que cada miembro del equipo asumirá en el desarrollo del producto.</p>	
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method05"></div>
+				</div>
+				<h4>Estrategia comunicacional</h4>
+				<p>Posteriormente, diseñamos una estrategia comunicacional y de incidencia definiendo un lanzamiento para el producto desarrollado, actividades para el posicionamiento en medios y redes sociales, y la promoción de la herramienta.</p>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<div class="row">
+					<div class="col-md-12 method06"></div>
+				</div>
+				<h4>Evaluación</h4>
+				<p>En este momento, se hace una revisión de los avances existentes de acuerdo con los objetivos planteados. También es el momento en el que se define el futuro del proyecto, del grupo creado y se clarifica la posibilidad de posteriores proyectos en conjunto.</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section class="container-red" id="about">
+	<div class="container">
+		<h2>Conoce al equipo</h2>
+		<div class="bajada">
+      	<p>Durante todo el proceso de Lab Cívico contarás con el apoyo de un equipo multidisciplinario de profesionales con muchas de ganas de producir cambios en Latinoamérica y ayudarte en todo lo necesario para que tu proyecto sea exitoso.</p>
+    	</div>
+	    <div class="row">
+	      {% for person in site.team %}
+	        <div class="col-xs-12 col-sm-6 col-md-3">
+	            <div class="panel panel-default">
+	              <img src="{{person.photo}}" class="cards-image"></img>
+	              <span>{{person.name}}</span>
+	              <p><small>{{person.occupation}}</small></p>
+	            </div>
+	        </div>
+	      {% endfor %}
+	    </div>  
+	</div>
+</section>
+
