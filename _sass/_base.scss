@@ -110,6 +110,34 @@ li.redes {
 }
 
 
+/*MODALS*/
+.modal-content{
+    background-color: $yellow;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    &.latam{
+            background-image: url("../img/la.png");
+            background-repeat: no-repeat;
+            background-blend-mode: multiply;
+            background-position-x:90%;
+            background-position-y: -10px;
+            min-height: 360px;
+    }
+    h2{
+    margin-bottom: 60px;
+    }   
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal{
+    top: 80px;
+}
+
+
 /*JUMBOTRON*/
 a .fa-chevron-down {
     background-color:$blue;

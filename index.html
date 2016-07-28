@@ -3,6 +3,28 @@ layout: default
 ---
 
 <div>
+  <!-- Modal -->
+  <div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content latam">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body text-center">
+      <h2 class="text-center blue-dark">¿Quieres participar en los próximos LabCívicos en Costa Rica, Guatemala y Honduras?</h2>
+      <a class="btn btn-danger btn-lg" href="https://docs.google.com/a/ciudadanointeligente.org/forms/d/e/1FAIpQLScPmHExGDCFcFx1Mlfnacaw7IOScEy5YYLRNxId102FC1VMHQ/viewform" role="button" target="_blank"><span>Inscríbete</span></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  <!--
+  $('#memberModal').modal('show');
+  //-->
+  </script>
+
   {% include welcome.html %}
   {% include methodology.html %}
   <div class="hidden">
