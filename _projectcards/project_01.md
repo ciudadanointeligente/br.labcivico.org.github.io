@@ -5,7 +5,6 @@ image: ../img/bolivia-min.jpg
 country: Bolivia
 theme: Violencia de género
 period: "Marzo - Septiembre 2015"
-permalink: /hackeando-al-machismo.html
 photo: ../img/bolivia-bg.jpg
 intro:
 etapas: [

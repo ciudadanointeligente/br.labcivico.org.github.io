@@ -5,7 +5,6 @@ image: ../img/ecuador-min.jpg
 country: Ecuador
 theme: Incentivo al reciclaje
 period: Agosto - Noviembre 2015
-permalink: /reciveci-hola.html
 photo: ../img/ecuador-bg.jpg
 intro: 
 etapas: [
