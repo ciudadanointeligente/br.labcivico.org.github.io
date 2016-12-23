@@ -38,6 +38,9 @@ a:focus, a:hover {
     color: $blue-dark;
 }
 
+.navbar{
+  margin-bottom: -20px;
+}
 
 .navbar-default{
     background-color: white;
@@ -126,7 +129,7 @@ li.redes {
     }
     h2{
     margin-bottom: 60px;
-    }   
+    }
 }
 
 .modal-header{
@@ -160,6 +163,7 @@ a .fa-chevron-down:hover {
     max-height: 810px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    padding-top: 0;
 }
 
 .jumbo-intro {
@@ -173,7 +177,7 @@ a .fa-chevron-down:hover {
 }
 
 .jumbo-photo{
-  min-height: 650px;
+  min-height: 720px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -575,7 +579,7 @@ p.quote{
 p.context{
   padding-bottom: 4px;
   border-bottom: 1px solid;
-  border-color: $blue; 
+  border-color: $blue;
   color: $blue;
 }
 
