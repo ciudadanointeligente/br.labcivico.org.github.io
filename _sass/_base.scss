@@ -116,18 +116,10 @@ li.redes {
 
 /*MODALS*/
 .modal-content{
-    background-color: $yellow;
-    border: none;
+    background-color: white;
+    border: 3px solid black;
     border-radius: 0;
     box-shadow: none;
-    &.latam{
-            background-image: url("../img/la.png");
-            background-repeat: no-repeat;
-            background-blend-mode: multiply;
-            background-position-x:90%;
-            background-position-y: -10px;
-            min-height: 360px;
-    }
     h2{
     margin-bottom: 60px;
     }
@@ -563,6 +555,22 @@ h5{
 }
 .btn-danger:hover{
     background-color: $blue;
+}
+
+button.btn.btn-default.btn-sm.btn-block{
+  background-color: black;
+  width: auto;
+  margin: auto;
+  color: white;
+  border: none;
+  font-weight: 700;
+  margin-top: 5px;
+  &:hover{
+    background-color: $blue;
+  }
+  &:focus{
+    background-color: $blue;
+  }
 }
 
 /*IMAGES*/
