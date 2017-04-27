@@ -2,9 +2,9 @@
 title: LabCívico
 email: prensa@ciudadanointeligente.org
 description: 'Experimientos ciudadanos para el cambio social en la región'
-baseurl: '//labcivico.org' #"//ciudadanointeligente.github.io/labcivico/"
-basedomain: labcivico.org
-analytics: 'UA-41822715-8'
+baseurl: '//br.labcivico.org' #"//ciudadanointeligente.github.io/labcivico/"
+basedomain: br.labcivico.org
+analytics: 'UA-41822715-14'
 
 # build settings
 markdown: kramdown
