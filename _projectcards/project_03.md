@@ -3,8 +3,8 @@ layout: card
 title: Transparencia electoral
 image: ../img/peru-min.jpg
 country: Perú
-theme: Transparencia electoral
-period: Noviembre 2015
+theme: Transparência eleitoral
+period: Novembro 2015
 photo: ../img/peru-bg.jpg
 intro: 
 etapas: [
@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-En este Lab Cívico se trabajó en los aspectos estratégicos y acciones de coordinación conjunta para impulsar una cultura de transparencia para las próximas elecciones generales que se realizarán este 2016 en Perú.
+Neste Lab Cívico se trabalhou nos aspectos estratégicos e em ações de coordenaço conjunta para impulsar uma cultura de transparência para as próximas eleições gerais que foram realizadas em 2016 no Perú.
