@@ -1,10 +1,10 @@
 ---
 layout: card
-title: Hackeando al machismo
+title: Hackeando o machismo
 image: ../img/bolivia-min.jpg
 country: Bolivia
-theme: Violencia de género
-period: "Marzo - Septiembre 2015"
+theme: Violencia de gênero
+period: "Março - Setembr0 2015"
 photo: ../img/bolivia-bg.jpg
 intro:
 etapas: [
@@ -33,4 +33,4 @@ personas: [
 
 ---
 
-Este proyecto busca visibilizar el impacto que tiene el machismo, el sexismo y la violencia de género. A través del uso de las redes sociales, alianzas con medios de comunicación y eventos públicos, #HackeandoAlMachismo busca educar en estas materias.
+Este projecto busca visibilizar o impacto que tem o machismo, o sexismo e a violência de gênero. Através do uso das redes sociais, alianças com meios de comunicação e eventos públicos, #HackeandoAlMachismo busca educar nestas matérias.
