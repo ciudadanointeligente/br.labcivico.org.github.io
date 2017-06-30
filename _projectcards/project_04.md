@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Transparencia y probidad
+title: Transparência e probidade
 image: 
 country: Guatemala
 theme: Transparência e probidade
