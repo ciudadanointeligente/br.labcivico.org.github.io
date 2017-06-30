@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-Em Honduras se abordou a temática de gênero. Especificamente, a violência que vivelh mujeres, gays, lésbicas, bisexuais y transexuais na cidade de Tegucigalpa e San Pedro Sula.
+Em Honduras se abordou a temática de gênero. Especificamente, a violência que vivem mulheres, gays, lésbicas, bisexuais y transexuais na cidade de Tegucigalpa e San Pedro Sula.
