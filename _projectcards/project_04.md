@@ -3,7 +3,7 @@ layout: card
 title: Transparencia y probidad
 image: 
 country: Guatemala
-theme: Transparencia y probidad
+theme: Transparência e probidade
 period: Agosto 2016
 photo: ../img/guatemala-bg.jpg
 intro:
@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-Este LabCívico trabajó en los aspectos estratégicos y acciones de coordinación conjunta entre diversas organizaciones de la sociedad civil que dedican su día a día a trabajar en lograr una Guatemala más democrática y transparente.
+Este LabCívico trabalhou nos aspectos estratégicos e ações de coordenação conjunta entre diversas organizações da sociedade civil que dedicam seu dia a dia a trabalhar para alcançar uma Guatemala mais democrática e transparente.
