@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-Neste Lab Cívico se trabalhou nos aspectos estratégicos e em ações de coordenaço conjunta para impulsar uma cultura de transparência para as próximas eleições gerais que foram realizadas em 2016 no Perú.
+Neste Lab Cívico se trabalhou nos aspectos estratégicos e em ações de coordenação conjunta para impulsar uma cultura de transparência para as próximas eleições gerais que foram realizadas em 2016 no Perú.
