@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Transparencia electoral
+title: Transparência eleitoral
 image: ../img/peru-min.jpg
 country: Perú
 theme: Transparência eleitoral
