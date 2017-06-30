@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-En esta experiencia se trabajó en conjunto con Abriendo Datos Costa Rica, con la finalidad de diagnosticar y buscar soluciones para los grandes problemas relacionados al transporte en la ciudad de San José.
+Nesta experiência se trabalhou em conjunto com Abriendo Datos Costa Rica, com a finalidade de diagnosticar e buscar soluções para os grandes problemas relacionados ao transporte na ciudade de San José.
