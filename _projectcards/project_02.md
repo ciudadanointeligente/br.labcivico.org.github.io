@@ -2,9 +2,9 @@
 layout: card
 title: Reciveci
 image: ../img/ecuador-min.jpg
-country: Ecuador
-theme: Incentivo al reciclaje
-period: Agosto - Noviembre 2015
+country: Equador
+theme: Incentivo à reciclagem
+period: Agosto - Novembro 2015
 photo: ../img/ecuador-bg.jpg
 intro: 
 etapas: [
@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-Este proyecto busca generar una cultura de reciclaje por medio de un vínculo humano entre los recicladores y la ciudadanía, que estimule el acto de reciclar en los barrios de la ciudad de Quito.
+Este projeto busca gerar uma cultura de reciclagem por meio de um vínculo humano entre os recicladores e a sociedade, que estimule o acto de reciclar nos bairros e na cidade de Quito.
