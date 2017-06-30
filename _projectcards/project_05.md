@@ -1,9 +1,9 @@
 ---
 layout: card
-title: Género
+title: Gênero
 image:
 country: Honduras
-theme: Género
+theme: Gênero
 period: Agosto 2016
 photo: ../img/honduras-bg.jpg
 intro:
@@ -33,4 +33,4 @@ personas: [
 	{"nombre": Nombrelargo Apellidolargo}]
 ---
 
-En Honduras se abordó la temática de género. Específicamente, la violencia que viven las mujeres, gays, lesbianas, bisexuales y transexuales en la ciudad de Tegucigalpa y  San Pedro Sula.
+Em Honduras se abordou a temática de gênero. Especificamente, a violência que vivelh mujeres, gays, lésbicas, bisexuais y transexuais na cidade de Tegucigalpa e San Pedro Sula.
